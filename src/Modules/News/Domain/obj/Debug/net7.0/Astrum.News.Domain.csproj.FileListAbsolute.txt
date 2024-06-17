@@ -1,0 +1,15 @@
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\News\Domain\bin\Debug\net7.0\Astrum.News.Domain.deps.json
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\News\Domain\bin\Debug\net7.0\Astrum.News.Domain.dll
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\News\Domain\bin\Debug\net7.0\Astrum.News.Domain.pdb
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\News\Domain\bin\Debug\net7.0\Astrum.SharedLib.Domain.dll
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\News\Domain\bin\Debug\net7.0\Astrum.SharedLib.Domain.pdb
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\News\Domain\obj\Debug\net7.0\Astrum.News.Domain.csproj.AssemblyReference.cache
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\News\Domain\obj\Debug\net7.0\Astrum.News.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\News\Domain\obj\Debug\net7.0\Astrum.News.Domain.AssemblyInfoInputs.cache
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\News\Domain\obj\Debug\net7.0\Astrum.News.Domain.AssemblyInfo.cs
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\News\Domain\obj\Debug\net7.0\Astrum.News.Domain.csproj.CoreCompileInputs.cache
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\News\Domain\obj\Debug\net7.0\Astrum.News.Domain.csproj.CopyComplete
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\News\Domain\obj\Debug\net7.0\Astrum.News.Domain.dll
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\News\Domain\obj\Debug\net7.0\refint\Astrum.News.Domain.dll
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\News\Domain\obj\Debug\net7.0\Astrum.News.Domain.pdb
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\News\Domain\obj\Debug\net7.0\ref\Astrum.News.Domain.dll

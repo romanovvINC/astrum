@@ -1,0 +1,18 @@
+﻿@page "/admin/permissions-sections"
+@inject IPermissionSectionService _permissionService
+
+<PageTitle>Доступы разделов</PageTitle>
+
+<h3>Доступы разделов</h3>
+<CreatePermissionSection OnPermissionCreated="OnInitializedAsync" />
+
+<PermissionSectionTable OnPermissionChange="OnInitializedAsync" PermissionSections="PermissionSections" />
+
+@code {
+    public List<PermissionSectionView> PermissionSections = new List<PermissionSectionView>();
+
+    protected async override Task OnInitializedAsync()
+    {
+        PermissionSections = await _permissionService.GetPermissionsSections();
+    }
+}

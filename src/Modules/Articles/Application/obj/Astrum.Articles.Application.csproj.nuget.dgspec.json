@@ -1,0 +1,2858 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Articles\\Application\\Astrum.Articles.Application.csproj": {}
+  },
+  "projects": {
+    "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Infrastructure\\Astrum.Infrastructure.Integrations.YouTrack\\Astrum.Infrastructure.Integrations.YouTrack.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Infrastructure\\Astrum.Infrastructure.Integrations.YouTrack\\Astrum.Infrastructure.Integrations.YouTrack.csproj",
+        "projectName": "Astrum.Infrastructure.Integrations.YouTrack",
+        "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Infrastructure\\Astrum.Infrastructure.Integrations.YouTrack\\Astrum.Infrastructure.Integrations.YouTrack.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Infrastructure\\Astrum.Infrastructure.Integrations.YouTrack\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Infrastructure\\Astrum.Infrastructure\\Astrum.Infrastructure.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Infrastructure\\Astrum.Infrastructure\\Astrum.Infrastructure.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Logging\\Core\\Astrum.Logging.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Logging\\Core\\Astrum.Logging.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Markdig": {
+              "target": "Package",
+              "version": "[0.31.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "YouTrackSharp": {
+              "target": "Package",
+              "version": "[2022.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Infrastructure\\Astrum.Infrastructure.Resources\\Astrum.Infrastructure.Resources.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Infrastructure\\Astrum.Infrastructure.Resources\\Astrum.Infrastructure.Resources.csproj",
+        "projectName": "Astrum.Infrastructure.Resources",
+        "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Infrastructure\\Astrum.Infrastructure.Resources\\Astrum.Infrastructure.Resources.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Infrastructure\\Astrum.Infrastructure.Resources\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Application\\Astrum.SharedLib.Application.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Application\\Astrum.SharedLib.Application.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Domain\\Astrum.SharedLib.Domain.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Domain\\Astrum.SharedLib.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Infrastructure\\Astrum.Infrastructure.Shared\\Astrum.Infrastructure.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Infrastructure\\Astrum.Infrastructure.Shared\\Astrum.Infrastructure.Shared.csproj",
+        "projectName": "Astrum.Infrastructure.Shared",
+        "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Infrastructure\\Astrum.Infrastructure.Shared\\Astrum.Infrastructure.Shared.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Infrastructure\\Astrum.Infrastructure.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Infrastructure\\Astrum.Infrastructure.Resources\\Astrum.Infrastructure.Resources.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Infrastructure\\Astrum.Infrastructure.Resources\\Astrum.Infrastructure.Resources.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Infrastructure\\Astrum.Infrastructure\\Astrum.Infrastructure.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Infrastructure\\Astrum.Infrastructure\\Astrum.Infrastructure.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Application\\Astrum.SharedLib.Application.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Application\\Astrum.SharedLib.Application.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Common\\Astrum.SharedLib.Common.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Common\\Astrum.SharedLib.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.AspNetCore.Localization": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "SixLabors.ImageSharp": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.2.23, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Infrastructure\\Astrum.Infrastructure\\Astrum.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Infrastructure\\Astrum.Infrastructure\\Astrum.Infrastructure.csproj",
+        "projectName": "Astrum.Infrastructure",
+        "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Infrastructure\\Astrum.Infrastructure\\Astrum.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Infrastructure\\Astrum.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Infrastructure\\Astrum.Infrastructure.Resources\\Astrum.Infrastructure.Resources.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Infrastructure\\Astrum.Infrastructure.Resources\\Astrum.Infrastructure.Resources.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Application\\Astrum.SharedLib.Application.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Application\\Astrum.SharedLib.Application.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Common\\Astrum.SharedLib.Common.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Common\\Astrum.SharedLib.Common.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Domain\\Astrum.SharedLib.Domain.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Domain\\Astrum.SharedLib.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Ardalis.GuardClauses": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "AutoMapper.Extensions.ExpressionMapping": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "SharpRaven": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "Storage.Net": {
+              "target": "Package",
+              "version": "[9.3.0, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.2.23, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Account\\Application\\Astrum.Account.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Account\\Application\\Astrum.Account.Application.csproj",
+        "projectName": "Astrum.Account.Application",
+        "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Account\\Application\\Astrum.Account.Application.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Account\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Account\\DomainServices\\Astrum.Account.DomainServices.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Account\\DomainServices\\Astrum.Account.DomainServices.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Account\\Domain\\Astrum.Account.Domain.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Account\\Domain\\Astrum.Account.Domain.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Identity\\Application\\Astrum.Identity.Application.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Identity\\Application\\Astrum.Identity.Application.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Identity\\Persistence\\Astrum.Identity.Persistence.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Identity\\Persistence\\Astrum.Identity.Persistence.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\News\\DomainServices\\Astrum.News.DomainServices.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\News\\DomainServices\\Astrum.News.DomainServices.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Project\\Application\\Astrum.Project.Application.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Project\\Application\\Astrum.Project.Application.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Storage\\Application\\Astrum.Storage.Application.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Storage\\Application\\Astrum.Storage.Application.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Application\\Astrum.SharedLib.Application.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Application\\Astrum.SharedLib.Application.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Common\\Astrum.SharedLib.Common.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Common\\Astrum.SharedLib.Common.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Domain\\Astrum.SharedLib.Domain.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Domain\\Astrum.SharedLib.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Keycloak.AuthServices.Authorization": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Account\\DomainServices\\Astrum.Account.DomainServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Account\\DomainServices\\Astrum.Account.DomainServices.csproj",
+        "projectName": "Astrum.Account.DomainServices",
+        "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Account\\DomainServices\\Astrum.Account.DomainServices.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Account\\DomainServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Account\\Domain\\Astrum.Account.Domain.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Account\\Domain\\Astrum.Account.Domain.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\IdentityServer\\Domain\\Astrum.IdentityServer.Domain.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\IdentityServer\\Domain\\Astrum.IdentityServer.Domain.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Application\\Astrum.SharedLib.Application.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Application\\Astrum.SharedLib.Application.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Domain\\Astrum.SharedLib.Domain.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Domain\\Astrum.SharedLib.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Account\\Domain\\Astrum.Account.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Account\\Domain\\Astrum.Account.Domain.csproj",
+        "projectName": "Astrum.Account.Domain",
+        "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Account\\Domain\\Astrum.Account.Domain.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Account\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Identity\\Domain\\Astrum.Identity.Domain.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Identity\\Domain\\Astrum.Identity.Domain.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Domain\\Astrum.SharedLib.Domain.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Domain\\Astrum.SharedLib.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Ardalis.Specification": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Articles\\Application\\Astrum.Articles.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Articles\\Application\\Astrum.Articles.Application.csproj",
+        "projectName": "Astrum.Articles.Application",
+        "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Articles\\Application\\Astrum.Articles.Application.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Articles\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Infrastructure\\Astrum.Infrastructure.Integrations.YouTrack\\Astrum.Infrastructure.Integrations.YouTrack.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Infrastructure\\Astrum.Infrastructure.Integrations.YouTrack\\Astrum.Infrastructure.Integrations.YouTrack.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Infrastructure\\Astrum.Infrastructure\\Astrum.Infrastructure.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Infrastructure\\Astrum.Infrastructure\\Astrum.Infrastructure.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Articles\\DomainServices\\Astrum.Articles.DomainServices.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Articles\\DomainServices\\Astrum.Articles.DomainServices.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Articles\\Domain\\Astrum.Articles.Domain.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Articles\\Domain\\Astrum.Articles.Domain.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Identity\\Domain\\Astrum.Identity.Domain.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Identity\\Domain\\Astrum.Identity.Domain.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\News\\Application\\Astrum.News.Application.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\News\\Application\\Astrum.News.Application.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\News\\Backoffice\\Astrum.News.Backoffice.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\News\\Backoffice\\Astrum.News.Backoffice.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Storage\\Application\\Astrum.Storage.Application.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Storage\\Application\\Astrum.Storage.Application.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Application\\Astrum.SharedLib.Application.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Application\\Astrum.SharedLib.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Articles\\DomainServices\\Astrum.Articles.DomainServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Articles\\DomainServices\\Astrum.Articles.DomainServices.csproj",
+        "projectName": "Astrum.Articles.DomainServices",
+        "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Articles\\DomainServices\\Astrum.Articles.DomainServices.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Articles\\DomainServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Articles\\Domain\\Astrum.Articles.Domain.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Articles\\Domain\\Astrum.Articles.Domain.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Application\\Astrum.SharedLib.Application.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Application\\Astrum.SharedLib.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Articles\\Domain\\Astrum.Articles.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Articles\\Domain\\Astrum.Articles.Domain.csproj",
+        "projectName": "Astrum.Articles.Domain",
+        "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Articles\\Domain\\Astrum.Articles.Domain.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Articles\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Application\\Astrum.SharedLib.Application.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Application\\Astrum.SharedLib.Application.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Domain\\Astrum.SharedLib.Domain.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Domain\\Astrum.SharedLib.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Ardalis.Specification": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\IdentityServer\\Domain\\Astrum.IdentityServer.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\IdentityServer\\Domain\\Astrum.IdentityServer.Domain.csproj",
+        "projectName": "Astrum.IdentityServer.Domain",
+        "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\IdentityServer\\Domain\\Astrum.IdentityServer.Domain.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\IdentityServer\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Account\\Domain\\Astrum.Account.Domain.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Account\\Domain\\Astrum.Account.Domain.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Domain\\Astrum.SharedLib.Domain.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Domain\\Astrum.SharedLib.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Keycloak.AuthServices.Sdk": {
+              "target": "Package",
+              "version": "[1.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Identity\\Application\\Astrum.Identity.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Identity\\Application\\Astrum.Identity.Application.csproj",
+        "projectName": "Astrum.Identity.Application",
+        "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Identity\\Application\\Astrum.Identity.Application.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Identity\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\IdentityServer\\Domain\\Astrum.IdentityServer.Domain.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\IdentityServer\\Domain\\Astrum.IdentityServer.Domain.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Identity\\Domain\\Astrum.Identity.Domain.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Identity\\Domain\\Astrum.Identity.Domain.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Application\\Astrum.SharedLib.Application.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Application\\Astrum.SharedLib.Application.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Common\\Astrum.SharedLib.Common.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Common\\Astrum.SharedLib.Common.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Domain\\Astrum.SharedLib.Domain.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Domain\\Astrum.SharedLib.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Identity\\Domain\\Astrum.Identity.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Identity\\Domain\\Astrum.Identity.Domain.csproj",
+        "projectName": "Astrum.Identity.Domain",
+        "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Identity\\Domain\\Astrum.Identity.Domain.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Identity\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Common\\Astrum.SharedLib.Common.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Common\\Astrum.SharedLib.Common.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Domain\\Astrum.SharedLib.Domain.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Domain\\Astrum.SharedLib.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Identity\\Infrastructure\\Astrum.Identity.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Identity\\Infrastructure\\Astrum.Identity.Infrastructure.csproj",
+        "projectName": "Astrum.Identity.Infrastructure",
+        "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Identity\\Infrastructure\\Astrum.Identity.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Identity\\Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Infrastructure\\Astrum.Infrastructure.Resources\\Astrum.Infrastructure.Resources.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Infrastructure\\Astrum.Infrastructure.Resources\\Astrum.Infrastructure.Resources.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Infrastructure\\Astrum.Infrastructure\\Astrum.Infrastructure.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Infrastructure\\Astrum.Infrastructure\\Astrum.Infrastructure.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Identity\\Application\\Astrum.Identity.Application.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Identity\\Application\\Astrum.Identity.Application.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Common\\Astrum.SharedLib.Common.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Common\\Astrum.SharedLib.Common.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Persistence\\Astrum.SharedLib.Persistence.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Persistence\\Astrum.SharedLib.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper.Extensions.ExpressionMapping": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Duende.IdentityServer": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Duende.IdentityServer.AspNetIdentity": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Google": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.2.23, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Identity\\Persistence\\Astrum.Identity.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Identity\\Persistence\\Astrum.Identity.Persistence.csproj",
+        "projectName": "Astrum.Identity.Persistence",
+        "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Identity\\Persistence\\Astrum.Identity.Persistence.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Identity\\Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Identity\\Application\\Astrum.Identity.Application.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Identity\\Application\\Astrum.Identity.Application.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Identity\\Infrastructure\\Astrum.Identity.Infrastructure.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Identity\\Infrastructure\\Astrum.Identity.Infrastructure.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Persistence\\Astrum.SharedLib.Persistence.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Persistence\\Astrum.SharedLib.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Duende.IdentityServer.EntityFramework": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Logging\\Core\\Astrum.Logging.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Logging\\Core\\Astrum.Logging.csproj",
+        "projectName": "Astrum.Logging",
+        "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Logging\\Core\\Astrum.Logging.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Logging\\Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Persistence\\Astrum.SharedLib.Persistence.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Persistence\\Astrum.SharedLib.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "NLog.Database": {
+              "target": "Package",
+              "version": "[5.1.2, )"
+            },
+            "Sakura.AspNetCore.PagedList": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\News\\Application\\Astrum.News.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\News\\Application\\Astrum.News.Application.csproj",
+        "projectName": "Astrum.News.Application",
+        "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\News\\Application\\Astrum.News.Application.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\News\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Account\\Application\\Astrum.Account.Application.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Account\\Application\\Astrum.Account.Application.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\News\\DomainServices\\Astrum.News.DomainServices.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\News\\DomainServices\\Astrum.News.DomainServices.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\News\\Domain\\Astrum.News.Domain.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\News\\Domain\\Astrum.News.Domain.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Storage\\Application\\Astrum.Storage.Application.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Storage\\Application\\Astrum.Storage.Application.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Telegram\\Application\\Astrum.Telegram.Application.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Telegram\\Application\\Astrum.Telegram.Application.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Domain\\Astrum.SharedLib.Domain.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Domain\\Astrum.SharedLib.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "HotChocolate": {
+              "target": "Package",
+              "version": "[12.15.2, )"
+            },
+            "HotChocolate.AspNetCore": {
+              "target": "Package",
+              "version": "[12.15.2, )"
+            },
+            "HotChocolate.Data": {
+              "target": "Package",
+              "version": "[12.15.2, )"
+            },
+            "HotChocolate.Subscriptions.Redis": {
+              "target": "Package",
+              "version": "[12.15.2, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\News\\Backoffice\\Astrum.News.Backoffice.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\News\\Backoffice\\Astrum.News.Backoffice.csproj",
+        "projectName": "Astrum.News.Backoffice",
+        "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\News\\Backoffice\\Astrum.News.Backoffice.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\News\\Backoffice\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Infrastructure\\Astrum.Infrastructure.Shared\\Astrum.Infrastructure.Shared.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Infrastructure\\Astrum.Infrastructure.Shared\\Astrum.Infrastructure.Shared.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Account\\Application\\Astrum.Account.Application.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Account\\Application\\Astrum.Account.Application.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\News\\Application\\Astrum.News.Application.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\News\\Application\\Astrum.News.Application.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Storage\\Application\\Astrum.Storage.Application.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Storage\\Application\\Astrum.Storage.Application.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Common\\Astrum.SharedLib.Common.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Common\\Astrum.SharedLib.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "HotChocolate": {
+              "target": "Package",
+              "version": "[12.15.2, )"
+            },
+            "HotChocolate.Data": {
+              "target": "Package",
+              "version": "[12.15.2, )"
+            },
+            "HotChocolate.Subscriptions": {
+              "target": "Package",
+              "version": "[12.15.2, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\News\\DomainServices\\Astrum.News.DomainServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\News\\DomainServices\\Astrum.News.DomainServices.csproj",
+        "projectName": "Astrum.News.DomainServices",
+        "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\News\\DomainServices\\Astrum.News.DomainServices.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\News\\DomainServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\News\\Domain\\Astrum.News.Domain.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\News\\Domain\\Astrum.News.Domain.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Application\\Astrum.SharedLib.Application.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Application\\Astrum.SharedLib.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\News\\Domain\\Astrum.News.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\News\\Domain\\Astrum.News.Domain.csproj",
+        "projectName": "Astrum.News.Domain",
+        "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\News\\Domain\\Astrum.News.Domain.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\News\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Domain\\Astrum.SharedLib.Domain.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Domain\\Astrum.SharedLib.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Ardalis.Specification": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Project\\Application\\Astrum.Project.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Project\\Application\\Astrum.Project.Application.csproj",
+        "projectName": "Astrum.Project.Application",
+        "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Project\\Application\\Astrum.Project.Application.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Project\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Infrastructure\\Astrum.Infrastructure.Integrations.YouTrack\\Astrum.Infrastructure.Integrations.YouTrack.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Infrastructure\\Astrum.Infrastructure.Integrations.YouTrack\\Astrum.Infrastructure.Integrations.YouTrack.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Infrastructure\\Astrum.Infrastructure\\Astrum.Infrastructure.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Infrastructure\\Astrum.Infrastructure\\Astrum.Infrastructure.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Project\\DomainServices\\Astrum.Project.DomainServices.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Project\\DomainServices\\Astrum.Project.DomainServices.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Project\\Domain\\Astrum.Project.Domain.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Project\\Domain\\Astrum.Project.Domain.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Application\\Astrum.SharedLib.Application.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Application\\Astrum.SharedLib.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "AutoMapper.Collection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Project\\DomainServices\\Astrum.Project.DomainServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Project\\DomainServices\\Astrum.Project.DomainServices.csproj",
+        "projectName": "Astrum.Project.DomainServices",
+        "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Project\\DomainServices\\Astrum.Project.DomainServices.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Project\\DomainServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Project\\Domain\\Astrum.Project.Domain.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Project\\Domain\\Astrum.Project.Domain.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Application\\Astrum.SharedLib.Application.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Application\\Astrum.SharedLib.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Project\\Domain\\Astrum.Project.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Project\\Domain\\Astrum.Project.Domain.csproj",
+        "projectName": "Astrum.Project.Domain",
+        "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Project\\Domain\\Astrum.Project.Domain.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Project\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Storage\\Application\\Astrum.Storage.Application.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Storage\\Application\\Astrum.Storage.Application.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Domain\\Astrum.SharedLib.Domain.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Domain\\Astrum.SharedLib.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Ardalis.Specification": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Storage\\Application\\Astrum.Storage.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Storage\\Application\\Astrum.Storage.Application.csproj",
+        "projectName": "Astrum.Storage.Application",
+        "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Storage\\Application\\Astrum.Storage.Application.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Storage\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Storage\\DomainServices\\Astrum.Storage.DomainServices.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Storage\\DomainServices\\Astrum.Storage.DomainServices.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Storage\\Domain\\Astrum.Storage.Domain.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Storage\\Domain\\Astrum.Storage.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Minio": {
+              "target": "Package",
+              "version": "[4.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Storage\\DomainServices\\Astrum.Storage.DomainServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Storage\\DomainServices\\Astrum.Storage.DomainServices.csproj",
+        "projectName": "Astrum.Storage.DomainServices",
+        "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Storage\\DomainServices\\Astrum.Storage.DomainServices.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Storage\\DomainServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Storage\\Domain\\Astrum.Storage.Domain.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Storage\\Domain\\Astrum.Storage.Domain.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Application\\Astrum.SharedLib.Application.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Application\\Astrum.SharedLib.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Storage\\Domain\\Astrum.Storage.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Storage\\Domain\\Astrum.Storage.Domain.csproj",
+        "projectName": "Astrum.Storage.Domain",
+        "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Storage\\Domain\\Astrum.Storage.Domain.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Storage\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Domain\\Astrum.SharedLib.Domain.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Domain\\Astrum.SharedLib.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Ardalis.Specification": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Telegram\\Application\\Astrum.Telegram.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Telegram\\Application\\Astrum.Telegram.Application.csproj",
+        "projectName": "Astrum.Telegram.Application",
+        "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Telegram\\Application\\Astrum.Telegram.Application.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Telegram\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Identity\\Persistence\\Astrum.Identity.Persistence.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Identity\\Persistence\\Astrum.Identity.Persistence.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Telegram\\DomainServices\\Astrum.Telegram.DomainServices.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Telegram\\DomainServices\\Astrum.Telegram.DomainServices.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Telegram.Bot": {
+              "target": "Package",
+              "version": "[18.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Telegram\\DomainServices\\Astrum.Telegram.DomainServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Telegram\\DomainServices\\Astrum.Telegram.DomainServices.csproj",
+        "projectName": "Astrum.Telegram.DomainServices",
+        "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Telegram\\DomainServices\\Astrum.Telegram.DomainServices.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Telegram\\DomainServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Telegram\\Domain\\Astrum.Telegram.Domain.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Telegram\\Domain\\Astrum.Telegram.Domain.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Application\\Astrum.SharedLib.Application.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Application\\Astrum.SharedLib.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Telegram\\Domain\\Astrum.Telegram.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Telegram\\Domain\\Astrum.Telegram.Domain.csproj",
+        "projectName": "Astrum.Telegram.Domain",
+        "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Telegram\\Domain\\Astrum.Telegram.Domain.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Telegram\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Domain\\Astrum.SharedLib.Domain.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Domain\\Astrum.SharedLib.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Ardalis.Specification": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Application\\Astrum.SharedLib.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Application\\Astrum.SharedLib.Application.csproj",
+        "projectName": "Astrum.SharedLib.Application",
+        "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Application\\Astrum.SharedLib.Application.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Common\\Astrum.SharedLib.Common.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Common\\Astrum.SharedLib.Common.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Domain\\Astrum.SharedLib.Domain.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Domain\\Astrum.SharedLib.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Ardalis.Specification": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "AutoMapper.Extensions.ExpressionMapping": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.4.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.4.0, )"
+            },
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "MassTransit.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.10.0, )"
+            },
+            "Sakura.AspNetCore.PagedList": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "Sakura.AspNetCore.PagedList.Abstractions": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Common\\Astrum.SharedLib.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Common\\Astrum.SharedLib.Common.csproj",
+        "projectName": "Astrum.SharedLib.Common",
+        "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Common\\Astrum.SharedLib.Common.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.4.0, )"
+            },
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "MediatR.Contracts": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Localization.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Domain\\Astrum.SharedLib.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Domain\\Astrum.SharedLib.Domain.csproj",
+        "projectName": "Astrum.SharedLib.Domain",
+        "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Domain\\Astrum.SharedLib.Domain.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Ardalis.GuardClauses": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "MediatR.Contracts": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Mono.Linq.Expressions": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Persistence\\Astrum.SharedLib.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Persistence\\Astrum.SharedLib.Persistence.csproj",
+        "projectName": "Astrum.SharedLib.Persistence",
+        "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Persistence\\Astrum.SharedLib.Persistence.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Infrastructure\\Astrum.Infrastructure\\Astrum.Infrastructure.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Infrastructure\\Astrum.Infrastructure\\Astrum.Infrastructure.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Identity\\Application\\Astrum.Identity.Application.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Identity\\Application\\Astrum.Identity.Application.csproj"
+              },
+              "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Application\\Astrum.SharedLib.Application.csproj": {
+                "projectPath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\SharedLib\\Application\\Astrum.SharedLib.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Ardalis.Specification.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Sakura.AspNetCore.PagedList": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "Sakura.AspNetCore.PagedList.Async": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

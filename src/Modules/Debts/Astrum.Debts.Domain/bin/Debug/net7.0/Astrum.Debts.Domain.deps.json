@@ -1,0 +1,139 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Astrum.Debts.Domain/1.0.0": {
+        "dependencies": {
+          "Ardalis.Specification": "7.0.0",
+          "Astrum.SharedLib.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Astrum.Debts.Domain.dll": {}
+        }
+      },
+      "Ardalis.GuardClauses/4.0.1": {
+        "dependencies": {
+          "JetBrains.Annotations": "2021.3.0"
+        },
+        "runtime": {
+          "lib/net6.0/Ardalis.GuardClauses.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.0.1.0"
+          }
+        }
+      },
+      "Ardalis.Specification/7.0.0": {
+        "runtime": {
+          "lib/net6.0/Ardalis.Specification.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
+        }
+      },
+      "JetBrains.Annotations/2021.3.0": {
+        "runtime": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {
+            "assemblyVersion": "2021.3.0.0",
+            "fileVersion": "2021.3.0.0"
+          }
+        }
+      },
+      "MediatR/11.1.0": {
+        "dependencies": {
+          "MediatR.Contracts": "1.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.1.0.0"
+          }
+        }
+      },
+      "MediatR.Contracts/1.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      },
+      "Mono.Linq.Expressions/2.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Mono.Linq.Expressions.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Astrum.SharedLib.Domain/1.0.0": {
+        "dependencies": {
+          "Ardalis.GuardClauses": "4.0.1",
+          "MediatR": "11.1.0",
+          "MediatR.Contracts": "1.0.1",
+          "Mono.Linq.Expressions": "2.0.0"
+        },
+        "runtime": {
+          "Astrum.SharedLib.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Astrum.Debts.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ardalis.GuardClauses/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RemnImQf/BWR8oYqFpdw+hn+b4Q1w+pGujkRiSfjQhMPuiERwGn4UMmQv+6UDE4qbPlnIN+e3e40JkvBhzgfzg==",
+      "path": "ardalis.guardclauses/4.0.1",
+      "hashPath": "ardalis.guardclauses.4.0.1.nupkg.sha512"
+    },
+    "Ardalis.Specification/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-e2bd6AN7V0FGOgmCq+srEPmz03PEIkESoyG/QKHxX76ezI13COvi/2WX09f1wLFKdex9gVqxCtNSBH9pvYFUVQ==",
+      "path": "ardalis.specification/7.0.0",
+      "hashPath": "ardalis.specification.7.0.0.nupkg.sha512"
+    },
+    "JetBrains.Annotations/2021.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ddxjs5RRjf+c8m9m++WvhW1lz1bqNhsTjWvCLbQN9bvKbkJeR9MhtfNwKgBRRdG2yLHcXFr5Lf7fsvvkiPaDRg==",
+      "path": "jetbrains.annotations/2021.3.0",
+      "hashPath": "jetbrains.annotations.2021.3.0.nupkg.sha512"
+    },
+    "MediatR/11.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YIbtrLOyeCuIv8vIuHL/mMdls5xmgS36pIOJDxKZuu55nxA2MI2Z+E/Uk0z+F/LE11AGmpjplOM0NZ91m5LQBA==",
+      "path": "mediatr/11.1.0",
+      "hashPath": "mediatr.11.1.0.nupkg.sha512"
+    },
+    "MediatR.Contracts/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NsRvOxthhkYml4DcBMyJsmym8C4MchioH7wxKVPEg7plFj9Euh/i4IcmZ3Gvgx6+K8obeuhPeJdoBl56wnuo3A==",
+      "path": "mediatr.contracts/1.0.1",
+      "hashPath": "mediatr.contracts.1.0.1.nupkg.sha512"
+    },
+    "Mono.Linq.Expressions/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SFxEh3Djy5jh4sf8ZReayfAaSt4A/Jn3miFPKfup6g4tE/sAMC2YbiT6ifQd3q+8rI2UJn9afhmLHOyTonOy7Q==",
+      "path": "mono.linq.expressions/2.0.0",
+      "hashPath": "mono.linq.expressions.2.0.0.nupkg.sha512"
+    },
+    "Astrum.SharedLib.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "bpiLJDo/+F1y7ctfmKXyRutK0UYw+GJAU4BBZiqxPZ5rTfk1S4GF0qjC5Piiebh63GonnXXfvL9Wrow06IbauA==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Cms\\Backoffice\\Astrum.Cms.Backoffice.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\swashbuckle.aspnetcore.annotations\\6.4.0\\swashbuckle.aspnetcore.annotations.6.4.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

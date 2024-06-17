@@ -1,0 +1,122 @@
+@import '_content/Astrum.Account.Admin/Astrum.Account.Admin.bundle.scp.css';
+
+/* _content/Astrum.Api/Shared/MainLayout.razor.rz.scp.css */
+.page[b-dv7hz55seg] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-dv7hz55seg] {
+    flex: 1;
+}
+
+.sidebar[b-dv7hz55seg] {
+    background-color: #fff
+}
+
+.top-row[b-dv7hz55seg] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-dv7hz55seg]  a, .top-row .btn-link[b-dv7hz55seg] {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+    }
+
+    .top-row a:first-child[b-dv7hz55seg] {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth)[b-dv7hz55seg] {
+        display: none;
+    }
+
+    .top-row.auth[b-dv7hz55seg] {
+        justify-content: space-between;
+    }
+
+    .top-row a[b-dv7hz55seg], .top-row .btn-link[b-dv7hz55seg] {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-dv7hz55seg] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-dv7hz55seg] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-dv7hz55seg] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .top-row[b-dv7hz55seg], article[b-dv7hz55seg] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+/* _content/Astrum.Api/Shared/NavMenu.razor.rz.scp.css */
+.logo-wrapper[b-nymvag9fxf] {
+    padding: 20px 30px;
+}
+
+.logo-image[b-nymvag9fxf] {
+    height: 35px;
+}
+
+.nav-item[b-nymvag9fxf] {
+    padding-bottom: 0.5rem;
+    letter-spacing: 1px;
+}
+
+.nav-item:first-of-type[b-nymvag9fxf] {
+    padding-top: 1rem;
+}
+
+.nav-item:last-of-type[b-nymvag9fxf] {
+    padding-bottom: 1rem;
+}
+
+.nav-item[b-nymvag9fxf]  a {
+    color: #2c323f;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    line-height: 3rem;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.nav-item[b-nymvag9fxf]  a.active {
+    background-color: #f4f6fd;
+    color: #6362e7;
+}
+
+.nav-item[b-nymvag9fxf]  a:hover {
+    background-color: #f4f6fd;
+    color: #6362e7;
+}
+
+.oi[b-nymvag9fxf] {
+    font-size: 0.85rem;
+    font-weight: 600;
+    vertical-align: text-top;
+    font-family: Rubik,sans-serif;
+    top: -2px;
+}

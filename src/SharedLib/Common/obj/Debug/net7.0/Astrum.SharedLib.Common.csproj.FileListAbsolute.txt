@@ -1,0 +1,12 @@
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\SharedLib\Common\bin\Debug\net7.0\Astrum.SharedLib.Common.deps.json
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\SharedLib\Common\bin\Debug\net7.0\Astrum.SharedLib.Common.dll
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\SharedLib\Common\bin\Debug\net7.0\Astrum.SharedLib.Common.pdb
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\SharedLib\Common\obj\Debug\net7.0\Astrum.SharedLib.Common.csproj.AssemblyReference.cache
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\SharedLib\Common\obj\Debug\net7.0\Astrum.SharedLib.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\SharedLib\Common\obj\Debug\net7.0\Astrum.SharedLib.Common.AssemblyInfoInputs.cache
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\SharedLib\Common\obj\Debug\net7.0\Astrum.SharedLib.Common.AssemblyInfo.cs
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\SharedLib\Common\obj\Debug\net7.0\Astrum.SharedLib.Common.csproj.CoreCompileInputs.cache
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\SharedLib\Common\obj\Debug\net7.0\Astrum.SharedLib.Common.dll
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\SharedLib\Common\obj\Debug\net7.0\refint\Astrum.SharedLib.Common.dll
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\SharedLib\Common\obj\Debug\net7.0\Astrum.SharedLib.Common.pdb
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\SharedLib\Common\obj\Debug\net7.0\ref\Astrum.SharedLib.Common.dll

@@ -1,0 +1,75 @@
+/* _content/Astrum.Account.Admin/Components/AchievementCard.razor.rz.scp.css */
+.achievement-card[b-1d2xl5p898] {
+    padding-top: 50px;
+}
+
+div.autoShowHide[b-1d2xl5p898] {
+    height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+div.deleteAchievement[b-1d2xl5p898] {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.card[b-1d2xl5p898] {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(95,94,231,.07);
+    letter-spacing: .5px;
+    margin-bottom: 30px;
+}
+
+.achievement-custom-card[b-1d2xl5p898] {
+    display: flex;
+    min-height: 200px;
+    overflow: visible;
+    padding: 60px 20px 20px;
+    position: relative;
+    width: 100%;
+}
+
+.achievement-card-avatar[b-1d2xl5p898] {
+    display: flex;
+    justify-content: center;
+    left: 50%;
+    position: absolute;
+    top: 0;
+    transform: translate(-50%, -50%);
+    transition: all .2s;
+    width: 50%;
+}
+
+.achievement-card-avatar:hover[b-1d2xl5p898] {
+    transform: translate(-50%,-50%) scale(1.1);
+}
+
+.achievement-card-icon-container[b-1d2xl5p898] {
+    align-items: center;
+    background-color: #cbcbef;
+    border-radius: 50%;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    padding: 5px;
+    position: relative !important;
+    width: 100px;
+}
+
+.achievement-card-icon[b-1d2xl5p898] {
+    border-radius: 50%;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.achievement-card-title h4[b-1d2xl5p898] {
+    color: #6362e7;
+    cursor: pointer;
+    height: 50px;
+    display: grid;
+    align-content: center;
+}

@@ -1,0 +1,24 @@
+﻿@page "/admin/miniapps"
+
+@using Astrum.Account.Application.Services;
+@using Astrum.Account.Application.ViewModels;
+@using Astrum.Account.Admin.Components;
+
+@inject IMiniAppService _miniAppService
+
+<PageTitle>Мини-приложения</PageTitle>
+
+<h3>Мини-приложения</h3>
+
+<CreateMiniApp OnMiniAppCreated="OnInitializedAsync"></CreateMiniApp>
+<MiniAppsList OnMiniAppChange="OnInitializedAsync" MiniApps="MiniApps"></MiniAppsList>
+
+
+@code {
+    public List<MiniAppResponse> MiniApps = new List<MiniAppResponse>();
+
+    protected async override Task OnInitializedAsync()
+    {
+        MiniApps = await _miniAppService.GetAll();
+    }
+}

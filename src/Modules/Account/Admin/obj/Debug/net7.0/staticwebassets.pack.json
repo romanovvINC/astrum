@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Account\\Admin\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Astrum.Account.Admin.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Astrum.Account.Admin.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Account\\Admin\\wwwroot\\background.png",
+      "PackagePath": "staticwebassets\\background.png"
+    },
+    {
+      "Id": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Account\\Admin\\wwwroot\\exampleJsInterop.js",
+      "PackagePath": "staticwebassets\\exampleJsInterop.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Astrum.Account.Admin.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Astrum.Account.Admin.props",
+      "PackagePath": "build\\Astrum.Account.Admin.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Astrum.Account.Admin.props",
+      "PackagePath": "buildMultiTargeting\\Astrum.Account.Admin.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Astrum.Account.Admin.props",
+      "PackagePath": "buildTransitive\\Astrum.Account.Admin.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

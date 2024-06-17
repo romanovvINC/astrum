@@ -1,0 +1,38 @@
+is_global = true
+build_property.RefitInternalNamespace = Astrum.Project.Admin
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Astrum.Project.Admin
+build_property.RootNamespace = Astrum.Project.Admin
+build_property.ProjectDir = C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Project\Astrum.Project.Admin\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Project\Astrum.Project.Admin
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Project/Astrum.Project.Admin/Components/CreateCustomer.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDcmVhdGVDdXN0b21lci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Project/Astrum.Project.Admin/Components/CustomersTable.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDdXN0b21lcnNUYWJsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Project/Astrum.Project.Admin/Components/UpdateCustomer.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xVcGRhdGVDdXN0b21lci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Project/Astrum.Project.Admin/Pages/CustomersPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJzUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Project/Astrum.Project.Admin/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 

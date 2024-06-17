@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "lKqCosgL6GBF5KMycPu+Dt3ofNSqBVj6zlRRkhFcCluq/z6+H+UwRoWKMrAQhVXA0QelixD6hUonPbZTzPRqlw==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Appeal\\Domain\\Astrum.Appeal.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\ardalis.guardclauses\\4.0.1\\ardalis.guardclauses.4.0.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\jetbrains.annotations\\2021.3.0\\jetbrains.annotations.2021.3.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\mono.linq.expressions\\2.0.0\\mono.linq.expressions.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

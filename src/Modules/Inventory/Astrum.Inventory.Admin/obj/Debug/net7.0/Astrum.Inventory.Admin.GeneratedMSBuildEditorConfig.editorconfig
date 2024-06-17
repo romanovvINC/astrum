@@ -1,0 +1,70 @@
+is_global = true
+build_property.RefitInternalNamespace = Astrum.Inventory.Admin
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows,browser
+build_property.RootNamespace = Astrum.Inventory.Admin
+build_property.RootNamespace = Astrum.Inventory.Admin
+build_property.ProjectDir = C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Inventory\Astrum.Inventory.Admin\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Inventory\Astrum.Inventory.Admin
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Inventory/Astrum.Inventory.Admin/Components/CreateCharacteristics.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDcmVhdGVDaGFyYWN0ZXJpc3RpY3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Inventory/Astrum.Inventory.Admin/Components/CreateInventoryItem.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDcmVhdGVJbnZlbnRvcnlJdGVtLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Inventory/Astrum.Inventory.Admin/Components/CreateTemplate.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDcmVhdGVUZW1wbGF0ZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Inventory/Astrum.Inventory.Admin/Components/DetailsInventoryItem.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEZXRhaWxzSW52ZW50b3J5SXRlbS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Inventory/Astrum.Inventory.Admin/Components/InventoryItemsTable.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xJbnZlbnRvcnlJdGVtc1RhYmxlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Inventory/Astrum.Inventory.Admin/Components/TemplatesTable.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xUZW1wbGF0ZXNUYWJsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Inventory/Astrum.Inventory.Admin/Components/UpdateCharacteristics.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xVcGRhdGVDaGFyYWN0ZXJpc3RpY3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Inventory/Astrum.Inventory.Admin/Components/UpdateInventoryItem.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xVcGRhdGVJbnZlbnRvcnlJdGVtLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Inventory/Astrum.Inventory.Admin/Components/UpdateTemplate.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xVcGRhdGVUZW1wbGF0ZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Inventory/Astrum.Inventory.Admin/Pages/InventoryItemsPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW52ZW50b3J5SXRlbXNQYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Inventory/Astrum.Inventory.Admin/Pages/InventoryPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW52ZW50b3J5UGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Inventory/Astrum.Inventory.Admin/Pages/TemplatesPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVtcGxhdGVzUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Inventory/Astrum.Inventory.Admin/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,80 @@
+﻿@using AntDesign
+@using Astrum.Market.Services
+@using Astrum.Market.ViewModels
+@using Astrum.SharedLib.Common.Extensions
+@using Sakura.AspNetCore
+
+@inject IProductService _productService
+@inject ILogAdminService _logger
+
+<h3>Товары Магазина</h3>
+<ProductModal OnCreated="AddProduct"/>
+<Table @bind-PageIndex="pageIndex"
+       @bind-PageSize="pageSize"
+       Total="@(products?.TotalCount ?? 0)"
+       OnPageIndexChange="GetProducts"
+       OnPageSizeChange="GetProducts"
+    TItem="MarketProductFormResponse" 
+    DataSource="products">
+    <Column TData="Template" Title="Изображение">
+        <img src="@context.CoverUrl" width="100"/>
+    </Column>
+    <Column Width="50%" TData="string" Title="Название">
+        <p>@context.Name</p>
+        <p>@context.Summary</p>
+    </Column>
+    <Column TData="string" Title="Цена">
+        <p>@context.Price</p>
+    </Column>
+    <Column TData="string" Title="Остаток">
+        <p>@context.Remain</p>
+    </Column>
+    <ActionColumn>
+        <Space Style="justify-content: center; display: flex;" Align="center">
+            <SpaceItem>
+                <ProductDetailsModal Product="@context"/>
+            </SpaceItem>
+            <SpaceItem>
+                <ProductModal Editing EditingProduct="@context" OnEdited="OnInitializedAsync"/>
+            </SpaceItem>
+            <SpaceItem>
+                <Popconfirm Title="Удалить продукт?" 
+                            CancelText="Нет" 
+                            OkText="Да"
+                            OnConfirm="async () => await DeleteProduct(context.Id)">
+                    <Button Danger>Удалить</Button>
+                </Popconfirm>
+            </SpaceItem>
+        </Space>
+    </ActionColumn>
+</Table>
+
+@code {
+    private IPagedList<MarketProductFormResponse> products;
+
+    private string imageSrc = "";
+    private int pageIndex = 1;
+    private int pageSize = 10;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await GetProducts();
+    }
+
+    private async Task GetProducts()
+    {
+        products = (await _productService.GetProducts(pageIndex, pageSize)).Data;
+    }
+
+    private async Task DeleteProduct(Guid id)
+    {
+        var result = await _productService.Delete(id);
+        _logger.Log(id, result, "Удалён продукт.", Logging.Entities.ModuleAstrum.Market);
+        products.Remove(products.FirstOrDefault(p => p.Id == id));
+    }
+
+    private void AddProduct(MarketProductFormResponse obj)
+    {
+        products.Add(obj);
+    }
+}

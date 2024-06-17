@@ -1,0 +1,68 @@
+﻿@using FuckWeb.Common.Interfaces
+@inject IDateTimeService _dateTimeService
+@model List<FuckWeb.Features.WorkingSession.WorkingSession>
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+@if (!Model.Any())
+{
+  <div class="text-center">
+    <h1 class="display-4">На неделе не приходил :(</h1>
+  </div>
+}
+else
+{
+  <div class="col-md-5 mt-4">
+    <div class="card h-100 mb-4">
+      <div class="card-header pb-0 px-3">
+        <div class="row">
+          <div class="col-md-6">
+            <h6 class="mb-0">Активность</h6>
+          </div>
+          <div class="col-md-6 d-flex justify-content-end align-items-center">
+            <i class="far fa-calendar-alt me-2"></i>
+            <small>@Model.Min(x=>x.Date) - @Model.Max(x=>x.Date)</small>
+          </div>
+        </div>
+      </div>
+      <div class="card-body pt-4 p-3">
+        @foreach (var session in Model.OrderByDescending(x=>x.Date))
+        {
+          var isEnter = true;
+          <h6 class="text-uppercase text-body text-xs font-weight-bolder mb-3">@session.Date</h6>
+          <ul class="list-group">
+            @foreach (var check in session.Checks.OrderBy(x=>x.Date))
+            {
+              <li class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg">
+                <div class="d-flex align-items-center">
+                  @if (isEnter)
+                  {
+                    <button class="btn btn-icon-only btn-rounded btn-outline-success mb-0 me-3 btn-sm d-flex align-items-center justify-content-center"><i class="fas fa-arrow-up"></i></button>
+                  }
+                  else
+                  {
+                    <button class="btn btn-icon-only btn-rounded btn-outline-danger mb-0 me-3 btn-sm d-flex align-items-center justify-content-center"><i class="fas fa-arrow-down"></i></button>
+                  }
+                  <div class="d-flex flex-column">
+                    @if (isEnter)
+                    {
+                      <h6 class="mb-1 text-dark text-sm">Пришёл</h6>
+                    }
+                    else
+                    {
+                      <h6 class="mb-1 text-dark text-sm">Ушёл</h6>
+                    }
+                    <span class="text-xs">@_dateTimeService.ConvertToUserTime(check.Date).ToString("dd-MM-yyyy hh:mm")</span>
+                  </div>
+                </div>
+              </li>
+              isEnter = !isEnter; 
+            }
+          </ul>
+        }
+      </div>
+    </div>
+  </div>
+}

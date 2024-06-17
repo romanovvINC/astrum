@@ -1,0 +1,42 @@
+2024-06-09 12:16:28.3899 Info Message Template Auto Format enabled
+2024-06-09 12:16:28.4014 Info Loading assembly: NLog.Web.AspNetCore
+2024-06-09 12:16:28.4743 Info Registered target NLog.Targets.DatabaseTarget(Name=httpDbLogs)
+2024-06-09 12:16:28.4743 Info Registered target NLog.Targets.DatabaseTarget(Name=adminDbLogs)
+2024-06-09 12:16:28.5115 Info Validating config: TargetNames=httpDbLogs, adminDbLogs, ConfigItems=60, FilePath=C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Presentation\Astrum.Api\bin\Debug\net7.0\NLog.config
+2024-06-09 12:16:30.7547 Info Validating config: TargetNames=httpDbLogs, adminDbLogs, ConfigItems=60, FilePath=C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Presentation\Astrum.Api\bin\Debug\net7.0\NLog.config
+2024-06-09 15:06:50.9752 Info Message Template Auto Format enabled
+2024-06-09 15:06:50.9870 Info Loading assembly: NLog.Web.AspNetCore
+2024-06-09 15:06:51.1049 Info Registered target NLog.Targets.DatabaseTarget(Name=httpDbLogs)
+2024-06-09 15:06:51.1049 Info Registered target NLog.Targets.DatabaseTarget(Name=adminDbLogs)
+2024-06-09 15:06:51.1423 Info Validating config: TargetNames=httpDbLogs, adminDbLogs, ConfigItems=60, FilePath=C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Presentation\Astrum.Api\bin\Debug\net7.0\NLog.config
+2024-06-09 15:06:52.5440 Info Validating config: TargetNames=httpDbLogs, adminDbLogs, ConfigItems=60, FilePath=C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Presentation\Astrum.Api\bin\Debug\net7.0\NLog.config
+2024-06-09 22:43:14.6496 Info Message Template Auto Format enabled
+2024-06-09 22:43:14.6601 Info Loading assembly: NLog.Web.AspNetCore
+2024-06-09 22:43:14.7649 Info Registered target NLog.Targets.DatabaseTarget(Name=httpDbLogs)
+2024-06-09 22:43:14.7649 Info Registered target NLog.Targets.DatabaseTarget(Name=adminDbLogs)
+2024-06-09 22:43:14.8029 Info Validating config: TargetNames=httpDbLogs, adminDbLogs, ConfigItems=60, FilePath=C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Presentation\Astrum.Api\bin\Debug\net7.0\NLog.config
+2024-06-09 22:43:16.2479 Info Validating config: TargetNames=httpDbLogs, adminDbLogs, ConfigItems=60, FilePath=C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Presentation\Astrum.Api\bin\Debug\net7.0\NLog.config
+2024-06-11 23:23:37.7747 Info Message Template Auto Format enabled
+2024-06-11 23:23:38.0063 Info Loading assembly: NLog.Web.AspNetCore
+2024-06-11 23:23:38.1569 Info Registered target NLog.Targets.DatabaseTarget(Name=httpDbLogs)
+2024-06-11 23:23:38.1569 Info Registered target NLog.Targets.DatabaseTarget(Name=adminDbLogs)
+2024-06-11 23:23:38.1946 Info Validating config: TargetNames=httpDbLogs, adminDbLogs, ConfigItems=60, FilePath=C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Presentation\Astrum.Api\bin\Debug\net7.0\NLog.config
+2024-06-11 23:23:45.5748 Info Validating config: TargetNames=httpDbLogs, adminDbLogs, ConfigItems=60, FilePath=C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Presentation\Astrum.Api\bin\Debug\net7.0\NLog.config
+2024-06-16 00:36:59.7772 Info Message Template Auto Format enabled
+2024-06-16 00:36:59.7894 Info Loading assembly: NLog.Web.AspNetCore
+2024-06-16 00:36:59.9083 Info Registered target NLog.Targets.DatabaseTarget(Name=httpDbLogs)
+2024-06-16 00:36:59.9083 Info Registered target NLog.Targets.DatabaseTarget(Name=adminDbLogs)
+2024-06-16 00:36:59.9487 Info Validating config: TargetNames=httpDbLogs, adminDbLogs, ConfigItems=60, FilePath=C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Presentation\Astrum.Api\bin\Debug\net7.0\NLog.config
+2024-06-16 00:37:01.7562 Info Validating config: TargetNames=httpDbLogs, adminDbLogs, ConfigItems=60, FilePath=C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Presentation\Astrum.Api\bin\Debug\net7.0\NLog.config
+2024-06-16 00:40:06.1025 Info Message Template Auto Format enabled
+2024-06-16 00:40:06.1129 Info Loading assembly: NLog.Web.AspNetCore
+2024-06-16 00:40:06.1825 Info Registered target NLog.Targets.DatabaseTarget(Name=httpDbLogs)
+2024-06-16 00:40:06.1825 Info Registered target NLog.Targets.DatabaseTarget(Name=adminDbLogs)
+2024-06-16 00:40:06.2189 Info Validating config: TargetNames=httpDbLogs, adminDbLogs, ConfigItems=60, FilePath=C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Presentation\Astrum.Api\bin\Debug\net7.0\NLog.config
+2024-06-16 00:40:07.0530 Info Validating config: TargetNames=httpDbLogs, adminDbLogs, ConfigItems=60, FilePath=C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Presentation\Astrum.Api\bin\Debug\net7.0\NLog.config
+2024-06-16 00:43:46.3864 Info Message Template Auto Format enabled
+2024-06-16 00:43:46.3964 Info Loading assembly: NLog.Web.AspNetCore
+2024-06-16 00:43:46.4613 Info Registered target NLog.Targets.DatabaseTarget(Name=httpDbLogs)
+2024-06-16 00:43:46.4613 Info Registered target NLog.Targets.DatabaseTarget(Name=adminDbLogs)
+2024-06-16 00:43:46.4965 Info Validating config: TargetNames=httpDbLogs, adminDbLogs, ConfigItems=60, FilePath=C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Presentation\Astrum.Api\bin\Debug\net7.0\NLog.config
+2024-06-16 00:43:48.6716 Info Validating config: TargetNames=httpDbLogs, adminDbLogs, ConfigItems=60, FilePath=C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Presentation\Astrum.Api\bin\Debug\net7.0\NLog.config

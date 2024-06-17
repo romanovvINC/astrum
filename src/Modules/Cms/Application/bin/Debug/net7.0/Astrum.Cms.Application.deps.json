@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Astrum.Cms.Application/1.0.0": {
+        "runtime": {
+          "Astrum.Cms.Application.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Astrum.Cms.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

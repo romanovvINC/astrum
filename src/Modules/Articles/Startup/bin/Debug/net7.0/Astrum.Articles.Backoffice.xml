@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Astrum.Articles.Backoffice</name>
+    </assembly>
+    <members>
+        <member name="M:Astrum.Articles.Controllers.ArticlesController.Create(Astrum.Articles.Requests.ArticleCreateRequest)">
+            <summary>
+                Создать статью
+            </summary>
+        </member>
+        <member name="M:Astrum.Articles.Controllers.ArticlesController.Update(System.Guid,Astrum.Articles.Application.Models.Requests.ArticleEditRequest)">
+            <summary>
+            Обновить статью
+            </summary>
+            <param name="id"></param>
+            <param name="articleRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Articles.Controllers.ArticlesController.GetAll(System.String,System.Collections.Generic.List{System.Guid})">
+             <summary>
+                 Список статей
+             </summary>
+             <param name="predicate">
+                 предикат(опционально)
+             </param>
+            <param name = "tagId">
+                 тэги(опционально)
+             </param> 
+        </member>
+        <member name="M:Astrum.Articles.Controllers.ArticlesController.GetById(System.Guid)">
+            <summary>
+                Получить статью по id
+            </summary>
+        </member>
+        <member name="M:Astrum.Articles.Controllers.ArticlesController.GetBySlug(System.String,System.String)">
+            <summary>
+                Получить статью по slug
+            </summary>
+        </member>
+        <member name="M:Astrum.Articles.Controllers.ArticlesController.GetByAuthor(System.Guid)">
+            <summary>
+                Получить статью по id автора
+            </summary>
+        </member>
+        <member name="M:Astrum.Articles.Controllers.ArticlesController.GetCategories">
+            <summary>
+                Список категорий
+            </summary>
+        </member>
+        <member name="M:Astrum.Articles.Controllers.ArticlesController.GetCategoriesInfo">
+            <summary>
+                Количество статей по тэгам
+            </summary>
+        </member>
+        <member name="M:Astrum.Articles.Controllers.ArticlesController.GetFilters">
+            <summary>
+                Получение фильтров
+            </summary>
+        </member>
+        <member name="M:Astrum.Articles.Controllers.ArticlesController.Delete(System.Guid)">
+            <summary>
+                Удалить статью по id
+            </summary>
+        </member>
+        <member name="M:Astrum.Articles.Controllers.ArticlesController.CheckSlug(System.String,System.String)">
+            <summary>
+               Проверить доступность имени статьи
+            </summary>
+        </member>
+        <member name="M:Astrum.Articles.Controllers.ArticlesController.GenerateSlug">
+            <summary>
+               сгенерировать слаг если нет
+            </summary>
+        </member>
+        <member name="M:Astrum.Articles.Backoffice.Controllers.TagController.Create(Astrum.Articles.Requests.TagRequest)">
+            <summary>
+                Создать тэг
+            </summary>
+        </member>
+        <member name="M:Astrum.Articles.Backoffice.Controllers.TagController.GetByCategoryId(System.Guid)">
+            <summary>
+                Получить тэги по id категории
+            </summary>
+        </member>
+        <member name="M:Astrum.Articles.Backoffice.Controllers.TagController.GetsByPredicate(System.Int32,System.String)">
+            <summary>
+                Получить тэги по предикату
+            </summary>
+        </member>
+    </members>
+</doc>

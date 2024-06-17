@@ -1,0 +1,12 @@
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\IdentityServer\Persistence\bin\Debug\net7.0\Astrum.IdentityServer.Persistence.deps.json
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\IdentityServer\Persistence\bin\Debug\net7.0\Astrum.IdentityServer.Persistence.dll
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\IdentityServer\Persistence\bin\Debug\net7.0\Astrum.IdentityServer.Persistence.pdb
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\IdentityServer\Persistence\obj\Debug\net7.0\Astrum.IdentityServer.Persistence.csproj.AssemblyReference.cache
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\IdentityServer\Persistence\obj\Debug\net7.0\Astrum.IdentityServer.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\IdentityServer\Persistence\obj\Debug\net7.0\Astrum.IdentityServer.Persistence.AssemblyInfoInputs.cache
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\IdentityServer\Persistence\obj\Debug\net7.0\Astrum.IdentityServer.Persistence.AssemblyInfo.cs
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\IdentityServer\Persistence\obj\Debug\net7.0\Astrum.IdentityServer.Persistence.csproj.CoreCompileInputs.cache
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\IdentityServer\Persistence\obj\Debug\net7.0\Astrum.IdentityServer.Persistence.dll
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\IdentityServer\Persistence\obj\Debug\net7.0\refint\Astrum.IdentityServer.Persistence.dll
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\IdentityServer\Persistence\obj\Debug\net7.0\Astrum.IdentityServer.Persistence.pdb
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\IdentityServer\Persistence\obj\Debug\net7.0\ref\Astrum.IdentityServer.Persistence.dll

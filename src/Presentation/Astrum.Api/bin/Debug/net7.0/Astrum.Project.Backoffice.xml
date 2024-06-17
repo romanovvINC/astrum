@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Astrum.Project.Backoffice</name>
+    </assembly>
+    <members>
+        <member name="M:Astrum.Projects.Controllers.CustomersController.GetAll">
+            <summary>
+                Список заказчиков
+            </summary>
+        </member>
+        <member name="M:Astrum.Projects.Controllers.CustomersController.Create(Astrum.Projects.ViewModels.Requests.CustomerRequest)">
+            <summary>
+                Создать заказчика
+            </summary>
+        </member>
+        <member name="M:Astrum.Projects.Controllers.CustomersController.Delete(System.Guid)">
+            <summary>
+                Удалить заказчика по id
+            </summary>
+        </member>
+        <member name="M:Astrum.Projects.Controllers.CustomFieldController.Create(Astrum.Projects.ViewModels.Requests.CustomFieldRequest)">
+            <summary>
+                Создать кастомное поле
+            </summary>
+        </member>
+        <member name="M:Astrum.Projects.Controllers.CustomFieldController.Delete(System.Guid)">
+            <summary>
+                Удалить кастомное поле
+            </summary>
+        </member>
+        <member name="M:Astrum.Projects.Controllers.ProductController.GetProducts(System.Int32,System.Int32,System.String)">
+            <summary>
+                Список продуктов
+            </summary>
+        </member>
+        <member name="M:Astrum.Projects.Controllers.ProductController.Create(Astrum.Projects.ViewModels.Requests.ProductRequest)">
+            <summary>
+                Создать продукт
+            </summary>
+        </member>
+        <member name="M:Astrum.Projects.Controllers.ProductController.Delete(System.Guid)">
+            <summary>
+                Удалить продукт по id
+            </summary>
+        </member>
+        <member name="M:Astrum.Projects.Controllers.ProductController.Get(System.Guid)">
+            <summary>
+                Получить продукт по id
+            </summary>
+        </member>
+        <member name="M:Astrum.Projects.Controllers.ProductController.Update(System.Guid,Astrum.Projects.ViewModels.DTO.ProductUpdateDto)">
+            <summary>
+                Обновить продукт
+            </summary>
+        </member>
+        <member name="M:Astrum.Projects.Controllers.ProjectsController.Create(Astrum.Projects.ViewModels.Requests.ProjectRequest)">
+            <summary>
+                Создать проект
+            </summary>
+        </member>
+        <member name="M:Astrum.Projects.Controllers.ProjectsController.Delete(System.Guid)">
+            <summary>
+                Удалить проект по id
+            </summary>
+        </member>
+        <member name="M:Astrum.Projects.Controllers.ProjectsController.Update(System.Guid,Astrum.Projects.ViewModels.DTO.ProjectUpdateDto)">
+            <summary>
+                Обновить проект
+            </summary>
+        </member>
+        <member name="M:Astrum.Projects.Controllers.ProjectsController.Get(System.Guid)">
+            <summary>
+                Получить проект по id
+            </summary>
+        </member>
+        <member name="M:Astrum.Projects.Controllers.ProjectsController.AddMembers(Astrum.Projects.ViewModels.AddMembersDto)">
+            <summary>
+                Добавить участников в проект
+            </summary>
+        </member>
+        <member name="M:Astrum.Projects.Controllers.ProjectsController.RemoveMembers(Astrum.Module.Project.Application.ViewModels.DTO.RemoveMembersDto)">
+            <summary>
+                Удалить участников из проекта
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Astrum.Telegram.Admin.props" />
+</Project>

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Astrum.Telegram.Backoffice/1.0.0": {
+        "runtime": {
+          "Astrum.Telegram.Backoffice.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Astrum.Telegram.Backoffice/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,39 @@
+﻿@using AutoMapper;
+@inject IPermissionSectionService _permissionService
+@inject ILogAdminService _logger
+@inject IMapper _mapper
+
+<Table DataSource="PermissionSections">
+    <RowTemplate Context="PermissionSection">
+        <Column TData="string" Title="Название раздела" DataIndex="@nameof(PermissionSectionView.TitleSection)">
+            @PermissionSection.TitleSection
+        </Column>
+        <Column TData="string" Title="Доступ" >
+            <Checkbox Disabled @bind-Value="@PermissionSection.Permission"/>
+        </Column>
+        <ActionColumn Width="100">
+            <Space>
+                <SpaceItem>
+                    <UpdatePermissionSection PermissionSection="@PermissionSection" OnPermissionSectionEdited="OnPermissionChange" />
+                </SpaceItem>
+                <SpaceItem>
+                    <Popconfirm Title="Удалить раздел?" OnConfirm="async () => await DeletePermissionSection(PermissionSection.Id)" OkText="Да" CancelText="Нет">
+                        <Button>Удалить</Button>
+                    </Popconfirm>
+                </SpaceItem>
+            </Space>
+        </ActionColumn>
+    </RowTemplate>
+</Table>
+
+@code {
+    [Parameter] public List<PermissionSectionView> PermissionSections { get; set; }
+    [Parameter] public EventCallback OnPermissionChange { get; set; }
+
+    public async Task DeletePermissionSection(Guid permissionSectionId)
+    {
+        var result = await _permissionService.DeletePermissionSection(permissionSectionId);
+        _logger.Log(permissionSectionId, result, "Удалён доступ раздела.", Logging.Entities.ModuleAstrum.Permissions);
+        await OnPermissionChange.InvokeAsync();
+    }
+}

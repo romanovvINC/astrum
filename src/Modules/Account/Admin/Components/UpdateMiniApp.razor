@@ -1,0 +1,90 @@
+﻿@using Astrum.Account.Application.Services;
+@using Astrum.Account.Application.ViewModels;
+@using Astrum.Storage.ViewModels
+@inject IMiniAppService _miniAppService
+
+<Button Type="Primary" OnClick="ShowModal">Редактировать</Button>
+
+<Modal AfterClose="async () => { if (OnMiniAppEdited.HasDelegate)
+    {
+        await OnMiniAppEdited.InvokeAsync();
+    }}"
+       Visible="_visible"
+       OnCancel="@HandleCancel"
+       Footer="null">
+    <Spin Spinning=@_imageUploading>
+        <h3 class="text-center">Редактирование мини-приложения</h3>
+        <Form Model="MiniAppRequest" OnFinish="OnFinish" Layout="@FormLayout.Vertical">
+            <FormItem Label="Название мини-приложения">
+                <Input @bind-Value="MiniAppRequest.Name" TValue="string" />
+            </FormItem>
+            <FormItem Label="Ссылка на мини-приложение">
+                <Input @bind-Value="MiniAppRequest.Link" TValue="string" />
+            </FormItem>
+            <FormItem Label="Изображение">
+                <InputFile id="fileInput" OnChange="UploadFile" hidden />
+                <Upload>
+                    <label class="ant-btn" for="fileInput">
+                        <Icon Type="upload" />
+                        Прикрепить файл
+                    </label>
+                </Upload>
+            </FormItem>
+            <FormItem>
+                <Button Type="@ButtonType.Primary" HtmlType="submit">
+                    Редактировать
+                </Button>
+            </FormItem>
+        </Form>
+    </Spin>
+</Modal>
+
+@code {
+    [Parameter] public MiniAppResponse MiniApp { get; set; }
+    [Parameter] public EventCallback OnMiniAppEdited { get; set; }
+    private MiniAppRequest MiniAppRequest { get; set; }
+    private bool _imageUploading;
+    private bool _visible;
+
+    public void ShowModal()
+    {
+        MiniAppRequest = new()
+        {
+            Id = MiniApp.Id,
+            Name = MiniApp.Name,
+            Link = MiniApp.Link,
+        };
+        _visible = true;
+    }
+
+    public void HandleCancel()
+    {
+        _visible = false;
+    }
+
+    private async Task UploadFile(InputFileChangeEventArgs e)
+    {
+        _imageUploading = true;
+        StateHasChanged();
+
+        var file = e.File;
+        using var memoryStream = new MemoryStream();
+        await file.OpenReadStream(e.File.Size).CopyToAsync(memoryStream);
+        MiniAppRequest.Image = new FileForm()
+        {
+            ContentType = file.ContentType,
+            FileName = file.Name,
+            FileBytes = memoryStream.ToArray(),
+        };
+
+        _imageUploading = false;
+        StateHasChanged();
+    }
+
+    public async Task OnFinish(EditContext context)
+    {
+        var model = context.Model as MiniAppRequest;
+        var result = await _miniAppService.UpdateAsync(model);
+        _visible = false;
+    }
+}

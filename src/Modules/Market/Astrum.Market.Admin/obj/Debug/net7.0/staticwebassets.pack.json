@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Market\\Astrum.Market.Admin\\wwwroot\\background.png",
+      "PackagePath": "staticwebassets\\background.png"
+    },
+    {
+      "Id": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\Market\\Astrum.Market.Admin\\wwwroot\\exampleJsInterop.js",
+      "PackagePath": "staticwebassets\\exampleJsInterop.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Astrum.Market.Admin.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Astrum.Market.Admin.props",
+      "PackagePath": "build\\Astrum.Market.Admin.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Astrum.Market.Admin.props",
+      "PackagePath": "buildMultiTargeting\\Astrum.Market.Admin.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Astrum.Market.Admin.props",
+      "PackagePath": "buildTransitive\\Astrum.Market.Admin.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

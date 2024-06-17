@@ -1,0 +1,15 @@
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Example\Domain\bin\Debug\net7.0\Astrum.Example.Domain.deps.json
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Example\Domain\bin\Debug\net7.0\Astrum.Example.Domain.dll
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Example\Domain\bin\Debug\net7.0\Astrum.Example.Domain.pdb
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Example\Domain\bin\Debug\net7.0\Astrum.SharedLib.Domain.dll
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Example\Domain\bin\Debug\net7.0\Astrum.SharedLib.Domain.pdb
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Example\Domain\obj\Debug\net7.0\Astrum.Example.Domain.csproj.AssemblyReference.cache
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Example\Domain\obj\Debug\net7.0\Astrum.Example.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Example\Domain\obj\Debug\net7.0\Astrum.Example.Domain.AssemblyInfoInputs.cache
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Example\Domain\obj\Debug\net7.0\Astrum.Example.Domain.AssemblyInfo.cs
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Example\Domain\obj\Debug\net7.0\Astrum.Example.Domain.csproj.CoreCompileInputs.cache
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Example\Domain\obj\Debug\net7.0\Astrum.Example.Domain.csproj.CopyComplete
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Example\Domain\obj\Debug\net7.0\Astrum.Example.Domain.dll
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Example\Domain\obj\Debug\net7.0\refint\Astrum.Example.Domain.dll
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Example\Domain\obj\Debug\net7.0\Astrum.Example.Domain.pdb
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Example\Domain\obj\Debug\net7.0\ref\Astrum.Example.Domain.dll

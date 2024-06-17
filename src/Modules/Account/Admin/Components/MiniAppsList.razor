@@ -1,0 +1,48 @@
+﻿@using Astrum.Account.Application.Services;
+@using Astrum.Account.Application.ViewModels;
+@using Microsoft.JSInterop;
+@inject IMiniAppService _miniAppService
+@inject NavigationManager navManager
+@inject IJSRuntime _js
+
+<Table DataSource="MiniApps">
+    <RowTemplate Context="MiniApp">
+        <Column TData="string" Title="Название мини-приложения" DataIndex="@nameof(MiniAppResponse.Name)">
+            @MiniApp.Name
+        </Column>
+        <Column TData="string" Title="Ссылка" DataIndex="@nameof(MiniAppResponse.Link)">
+            <a href=@MiniApp.Link target="_blank">@MiniApp.Link</a>
+        </Column>
+        <ActionColumn Width="100">
+            <Space>
+                <SpaceItem>
+                    <UpdateMiniApp MiniApp="@MiniApp" OnMiniAppEdited="OnMiniAppChange" />
+                </SpaceItem>
+                <SpaceItem>
+                    <Popconfirm Title="Удалить мини-приложение?" OnConfirm="async () => await DeleteMiniapp(MiniApp.Id)" OkText="Да" CancelText="Нет">
+                        <Button>Удалить</Button>
+                    </Popconfirm>
+                </SpaceItem>
+                <SpaceItem>
+                    <Button Type="primary" OnClick="(() => ToMiniapp(MiniApp.Link))">Перейти</Button>
+                </SpaceItem>
+            </Space>
+        </ActionColumn>
+    </RowTemplate>
+</Table>
+
+@code {
+    [Parameter] public List<MiniAppResponse> MiniApps { get; set; }
+    [Parameter] public EventCallback OnMiniAppChange { get; set; }
+
+    public async Task DeleteMiniapp(Guid miniAppId)
+    {
+        var result = await _miniAppService.DeleteAsync(miniAppId);
+        await OnMiniAppChange.InvokeAsync();
+    }
+
+    public async Task ToMiniapp(string link)
+    {
+        await _js.InvokeVoidAsync("open", link, "_blank");
+    }
+}

@@ -1,0 +1,50 @@
+is_global = true
+build_property.RefitInternalNamespace = Astrum.Market.Admin
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Astrum.Market.Admin
+build_property.RootNamespace = Astrum.Market.Admin
+build_property.ProjectDir = C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Market\Astrum.Market.Admin\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Market\Astrum.Market.Admin
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Market/Astrum.Market.Admin/Components/OrderModal.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xPcmRlck1vZGFsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Market/Astrum.Market.Admin/Components/OrderProductModal.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xPcmRlclByb2R1Y3RNb2RhbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Market/Astrum.Market.Admin/Components/OrderTable.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xPcmRlclRhYmxlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Market/Astrum.Market.Admin/Components/ProductDetailsModal.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQcm9kdWN0RGV0YWlsc01vZGFsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Market/Astrum.Market.Admin/Components/ProductModal.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQcm9kdWN0TW9kYWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Market/Astrum.Market.Admin/Components/ProductTable.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQcm9kdWN0VGFibGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Market/Astrum.Market.Admin/Pages/MarketPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFya2V0UGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Market/Astrum.Market.Admin/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 

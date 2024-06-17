@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Astrum.Identity.Backoffice</name>
+    </assembly>
+    <members>
+        <member name="T:Astrum.Identity.Controllers.AuthController">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Astrum.Identity.Controllers.AuthController.Login(Astrum.Identity.Features.Commands.Login.LoginCommand,System.Threading.CancellationToken)">
+            <summary>
+                Authentication via username or password
+            </summary>
+            <param name="command"></param>
+            <param name="cancellationToken"></param>
+        </member>
+        <member name="M:Astrum.Identity.Controllers.AuthController.Logout(Astrum.Identity.Features.Commands.Logout.LogoutCommand,System.Threading.CancellationToken)">
+            <summary>
+                Logout user
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Identity.Controllers.AuthController.ChangePassword(Astrum.Identity.Features.Commands.ChangePassword.ChangePasswordCommand,System.Threading.CancellationToken)">
+            <summary>
+                Change password
+            </summary>
+            <param name="command">Request body</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Identity.Controllers.AuthController.Register(Astrum.Identity.Features.Commands.Register.RegisterCommand,System.Threading.CancellationToken)">
+            <summary>
+                Registration
+            </summary>
+            <param name="command"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

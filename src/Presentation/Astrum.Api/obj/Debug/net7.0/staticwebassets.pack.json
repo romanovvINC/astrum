@@ -1,0 +1,81 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Presentation\\Astrum.Api\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Astrum.Api.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Astrum.Api.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Presentation\\Astrum.Api\\wwwroot\\adminStatic\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\adminStatic\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Presentation\\Astrum.Api\\wwwroot\\adminStatic\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\adminStatic\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Presentation\\Astrum.Api\\wwwroot\\adminStatic\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\adminStatic\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Presentation\\Astrum.Api\\wwwroot\\adminStatic\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\adminStatic\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Presentation\\Astrum.Api\\wwwroot\\adminStatic\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\adminStatic\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Presentation\\Astrum.Api\\wwwroot\\adminStatic\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\adminStatic\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Presentation\\Astrum.Api\\wwwroot\\adminStatic\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\adminStatic\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Presentation\\Astrum.Api\\wwwroot\\adminStatic\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\adminStatic\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Presentation\\Astrum.Api\\wwwroot\\adminStatic\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\adminStatic\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Presentation\\Astrum.Api\\wwwroot\\adminStatic\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\adminStatic\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Presentation\\Astrum.Api\\wwwroot\\adminStatic\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\adminStatic\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Presentation\\Astrum.Api\\wwwroot\\adminStatic\\css\\site.css",
+      "PackagePath": "staticwebassets\\adminStatic\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Presentation\\Astrum.Api\\wwwroot\\adminStatic\\favicon.ico",
+      "PackagePath": "staticwebassets\\adminStatic\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Presentation\\Astrum.Api\\wwwroot\\adminStatic\\logo.svg",
+      "PackagePath": "staticwebassets\\adminStatic\\logo.svg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Astrum.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Astrum.Api.props",
+      "PackagePath": "build\\Astrum.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Astrum.Api.props",
+      "PackagePath": "buildMultiTargeting\\Astrum.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Astrum.Api.props",
+      "PackagePath": "buildTransitive\\Astrum.Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

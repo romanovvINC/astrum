@@ -1,0 +1,50 @@
+is_global = true
+build_property.RefitInternalNamespace = Astrum.Logging.Admin
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Astrum.Logging.Admin
+build_property.RootNamespace = Astrum.Logging.Admin
+build_property.ProjectDir = C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Logging\Astrum.Logging.Admin\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Logging\Astrum.Logging.Admin
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Logging/Astrum.Logging.Admin/Components/LogsData.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMb2dzRGF0YS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Logging/Astrum.Logging.Admin/Components/LogsDataAdmin.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMb2dzRGF0YUFkbWluLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Logging/Astrum.Logging.Admin/Components/LogsDataAdminDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMb2dzRGF0YUFkbWluRGV0YWlscy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Logging/Astrum.Logging.Admin/Components/LogsDataDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMb2dzRGF0YURldGFpbHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Logging/Astrum.Logging.Admin/Components/SearchingLogsData.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTZWFyY2hpbmdMb2dzRGF0YS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Logging/Astrum.Logging.Admin/Components/SearchingLogsDataAdmin.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTZWFyY2hpbmdMb2dzRGF0YUFkbWluLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Logging/Astrum.Logging.Admin/Pages/LoggingPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nZ2luZ1BhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Logging/Astrum.Logging.Admin/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Astrum.Api</name>
+    </assembly>
+    <members>
+        <member name="T:Astrum.Api.Cors">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Astrum.Api.Extensions.KeycloakBlazorAuthExtension.GetClaim(System.Security.Claims.ClaimsIdentity,System.String)">
+            <summary>
+            Gets an identity claim
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Api.Extensions.KeycloakBlazorAuthExtension.GetClaimValue(System.Security.Claims.ClaimsIdentity,System.String)">
+            <summary>
+            Adds or updates a identity claim
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Api.Extensions.KeycloakBlazorAuthExtension.SetClaim(System.Security.Claims.ClaimsIdentity,System.Security.Claims.Claim)">
+            <summary>
+            Adds or updates a identity claim
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Api.Extensions.KeycloakBlazorAuthExtension.SetClaimValue(System.Security.Claims.ClaimsIdentity,System.String,System.String)">
+            <summary>
+            Adds or updates a identity claim
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Api.Extensions.KeycloakBlazorAuthExtension.AddOrUpdateClaim(System.Security.Claims.ClaimsIdentity,System.String,System.Int64)">
+            <summary>
+            Adds or updates a identity claim
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Api.Extensions.KeycloakBlazorAuthExtension.AddOrUpdateClaim(System.Security.Claims.ClaimsIdentity,System.String,System.Nullable{System.Int64})">
+            <summary>
+            Adds or updates a identity claim
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Astrum.Api.Extensions.ServiceCollectionExtensions">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Astrum.Api.Extensions.ServiceCollectionExtensions.AddInfrastructure(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            </summary>
+            <param name="services"></param>
+            <param name="configuration"></param>
+        </member>
+        <member name="M:Astrum.Api.Extensions.ServiceCollectionExtensions.AddCustomizedMvc(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            </summary>
+            <param name="services"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Api.Extensions.ServiceCollectionExtensions.AddCustomAuthentication(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            </summary>
+            <param name="services"></param>
+            <param name="configuration"></param>
+        </member>
+        <member name="M:Astrum.Api.Extensions.SlugifyParameterTransformer.TransformOutbound(System.Object)">
+            <summary>
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Api.Program.Main(System.String[])">
+            <summary>
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:Astrum.Api.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,122 @@
+is_global = true
+build_property.RefitInternalNamespace = Astrum.Account.Admin
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows,browser
+build_property.RootNamespace = Astrum.Account.Admin
+build_property.RootNamespace = Astrum.Account.Admin
+build_property.ProjectDir = C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Account\Admin\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Account\Admin
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Account/Admin/Components/ApplicationsTable.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHBsaWNhdGlvbnNUYWJsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Account/Admin/Components/AssignAchievement.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBc3NpZ25BY2hpZXZlbWVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Account/Admin/Components/ChangeMoney.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDaGFuZ2VNb25leS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Account/Admin/Components/CreateAchievement.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDcmVhdGVBY2hpZXZlbWVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Account/Admin/Components/CreateMiniApp.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDcmVhdGVNaW5pQXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Account/Admin/Components/CreatePosition.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDcmVhdGVQb3NpdGlvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Account/Admin/Components/CreateUser.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDcmVhdGVVc2VyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Account/Admin/Components/Custom/DateOnlyPicker.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDdXN0b21cRGF0ZU9ubHlQaWNrZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Account/Admin/Components/EditAchievement.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFZGl0QWNoaWV2ZW1lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Account/Admin/Components/EditApplication.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFZGl0QXBwbGljYXRpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Account/Admin/Components/EditUser.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFZGl0VXNlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Account/Admin/Components/MiniAppsList.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xNaW5pQXBwc0xpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Account/Admin/Components/PositionTable.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQb3NpdGlvblRhYmxlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Account/Admin/Components/TransactionTable.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xUcmFuc2FjdGlvblRhYmxlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Account/Admin/Components/UpdateMiniApp.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xVcGRhdGVNaW5pQXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Account/Admin/Components/UpdatePosition.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xVcGRhdGVQb3NpdGlvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Account/Admin/Components/UsersSearch.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xVc2Vyc1NlYXJjaC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Account/Admin/Components/UsersTable.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xVc2Vyc1RhYmxlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Account/Admin/Pages/AchievementsPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNoaWV2ZW1lbnRzUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Account/Admin/Pages/MiniAppsPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWluaUFwcHNQYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Account/Admin/Pages/PositionPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9zaXRpb25QYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Account/Admin/Pages/RegistrationPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0cmF0aW9uUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Account/Admin/Pages/TransactionPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhbnNhY3Rpb25QYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Account/Admin/Pages/UsersPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNQYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Account/Admin/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/66bit/Astrum/pushcore-backend/pushcore-backend/src/Modules/Account/Admin/Components/AchievementCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY2hpZXZlbWVudENhcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-1d2xl5p898

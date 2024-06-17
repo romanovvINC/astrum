@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Astrum.News.Admin.props" />
+</Project>

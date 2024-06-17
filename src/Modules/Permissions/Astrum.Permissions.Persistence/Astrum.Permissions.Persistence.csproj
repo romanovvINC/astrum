@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\SharedLib\Persistence\Astrum.SharedLib.Persistence.csproj" />
+      <ProjectReference Include="..\Astrum.Permissions.Application\Astrum.Permissions.Application.csproj" />
+      <ProjectReference Include="..\Astrum.Permissions.DomainServices\Astrum.Permissions.DomainServices.csproj" />
+      <ProjectReference Include="..\Astrum.Permissions.Domain\Astrum.Permissions.Domain.csproj" />
+    </ItemGroup>
+
+</Project>

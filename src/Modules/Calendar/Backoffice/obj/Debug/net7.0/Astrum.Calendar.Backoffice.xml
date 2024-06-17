@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Astrum.Calendar.Backoffice</name>
+    </assembly>
+    <members>
+        <member name="M:Astrum.Calendar.Controllers.CalendarController.Sync">
+            <summary>
+            Синхронизация календарей и событий из Google
+            </summary>
+            <param name="request">Начало и конец недели для получения</param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Calendar.Controllers.CalendarController.Get(System.DateTime,System.DateTime)">
+            <summary>
+            Получение календарей и событий
+            </summary>
+            <param name="request">Начало и конец недели для получения</param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Calendar.Controllers.CalendarController.Create(System.String)">
+            <summary>
+            Создаёт новый календарь
+            </summary>
+            <param name="calendar">Новый календарь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Calendar.Controllers.CalendarController.Update(System.Guid,Astrum.Calendar.ViewModels.CalendarForm)">
+            <summary>
+            Изменяет выбранный календарь
+            </summary>
+            <param name="calendar">Изменённый календарь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Calendar.Controllers.CalendarController.Delete(System.Guid)">
+            <summary>
+            Удаляет календарь по его id
+            </summary>
+            <param name="id">id календаря</param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Calendar.Controllers.EventController.Create(Astrum.Calendar.ViewModels.EventForm)">
+            <summary>
+                Создаёт новое событие в одном из календарей
+            </summary>
+            <param name="ev">Новое событие</param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Calendar.Controllers.EventController.Update(System.Guid,Astrum.Calendar.ViewModels.EventForm)">
+            <summary>
+                Изменяет существующее событие
+            </summary>
+            <param name="ev">Изменённое событие</param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Calendar.Controllers.EventController.Delete(System.Guid)">
+            <summary>
+                Удаляет событие из определённого календаря
+            </summary>
+            <param name="calendarId">id календаря</param>
+            <param name="eventId">id события</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

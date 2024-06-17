@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Astrum.Account.Backoffice</name>
+    </assembly>
+    <members>
+        <member name="T:Astrum.Account.Controllers.AchievementController">
+            <summary>
+                Achievements endpoint
+            </summary>
+        </member>
+        <member name="M:Astrum.Account.Controllers.AchievementController.Get(System.Guid)">
+            <summary>
+                Получить описание достижения
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Account.Controllers.AchievementController.GetAll">
+            <summary>
+                Получить список существующих достижений
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Account.Controllers.AchievementController.AssignAchievement(Astrum.Account.Features.Achievement.Commands.AchievementAssign.AchievementAssignCommand)">
+            <summary>
+                Присвоить достижение пользователю
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Account.Controllers.AchievementController.RemoveAchievement(Astrum.Account.Application.Features.Achievement.Commands.AchievementRemove.AchievementRemoveCommand)">
+            <summary>
+                Удалить достижение у пользователя
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Account.Controllers.AchievementController.GetUserAchievementsByUsername(System.String)">
+            <summary>
+                Получить достижения пользователя
+            </summary>
+            <param name="username"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Account.Controllers.AchievementController.Create(Astrum.Account.Features.Achievement.Commands.AchievementCreate.AchievementCreateCommand)">
+            <summary>
+                Создать достижение
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Account.Controllers.AchievementController.Update(System.Guid,Astrum.Account.Features.AchievementUpdateRequestBody)">
+            <summary>
+                Изменить достижение
+            </summary>
+            <param name="id"></param>
+            <param name="body"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Account.Controllers.AchievementController.Delete(System.Guid)">
+            <summary>
+                Удалить достижение
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Account.Controllers.RegistrationController.Get(System.Guid)">
+            <summary>
+                Получить заявку на регистрацию
+            </summary>
+            <param name="applicationId">Application identifier</param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Account.Controllers.RegistrationController.GetAll">
+            <summary>
+                Список заявок на регистрацию
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Account.Controllers.RegistrationController.Create(Astrum.Account.Features.Registration.Commands.RegistrationApplicationCreate.RegistrationApplicationCreateCommand)">
+            <summary>
+                Создать заявку на регистрацию
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Account.Controllers.RegistrationController.Update(System.Guid,Astrum.Account.Features.RegistrationApplicationUpdateRequestBody)">
+            <summary>
+                Обновить заявку на регистрацию
+            </summary>
+            <param name="applicationId"></param>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Account.Controllers.RegistrationController.Approve(Astrum.Account.Features.Registration.Commands.RegistrationApplicationUpdateStatus.ApproveRegistrationApplicationCommand)">
+            <summary>
+                Одобрить заявку на регистрацию
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Account.Controllers.RegistrationController.Reject(Astrum.Account.Application.Features.Registration.Commands.RejectRegistrationApplication.RejectRegistrationApplicationCommand)">
+            <summary>
+                Отклонить заявку на регистрацию
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Account.Controllers.RegistrationController.Delete(System.Guid)">
+            <summary>
+                Удалить заявку на регистрацию
+            </summary>
+            <param name="applicationId"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Astrum.Account.Controllers.UserProfileController">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Astrum.Account.Controllers.UserProfileController.Get(System.String)">
+            <summary>
+                Получить данные о пользователе
+            </summary>
+            <param name="username"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Account.Controllers.UserProfileController.GetPosts(System.String,System.Int32,System.Int32)">
+            <summary>
+                Получить посты пользователя
+            </summary>
+            <param name="username"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Account.Controllers.UserProfileController.GetBasicUserInfo">
+            <summary>
+                Получить базовые данные о пользователе
+            </summary>
+            <param name="username"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Account.Controllers.UserProfileController.GetUserFullName(System.String)">
+            <summary>
+                Получить полное имя пользователя
+            </summary>
+            <param name="username"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Account.Controllers.UserProfileController.CheckUserExist(System.String)">
+            <summary>
+                Проверить существование пользователя
+            </summary>
+            <param name="username"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Account.Controllers.UserProfileController.GetEditInfo(System.String)">
+            <summary>
+                Получить данные для редактирования
+            </summary>
+            <param name="username"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Account.Controllers.UserProfileController.GetAll(System.String,System.Collections.Generic.List{System.Guid})">
+            <summary>
+                Получить краткую информацию о всех пользователях
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Account.Controllers.UserProfileController.GetPositions">
+            <summary>
+                Список должностей  
+            </summary>  
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Account.Controllers.UserProfileController.GetAllPositions">
+            <summary>
+                Список должностей  
+            </summary>  
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Account.Controllers.UserProfileController.GetFilters">
+            <summary>
+                Получение фильтров
+            </summary>
+        </member>
+        <member name="M:Astrum.Account.Controllers.UserProfileController.Edit(System.String,Astrum.Account.Features.EditUserProfileRequestBody)">
+            <summary>
+                Изменить данные о пользователе
+            </summary>
+            <param name="username"></param>
+            <param name="body"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Account.Controllers.UserProfileController.ChangeAvatar(System.String,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+                Изменить аватарку пользователя
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Account.Controllers.UserProfileController.ChangeCover(System.String,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+                Изменить обложку пользователя
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Account.Controllers.UserProfileController.CreateCustomField(Astrum.Account.Features.CustomField.Commands.CustomFieldCreateCommand)">
+            <summary>
+                Создать кастомное поле
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Account.Controllers.UserProfileController.EditCustomField(Astrum.Account.Features.CustomField.Commands.CustomFieldEditCommand)">
+            <summary>
+                Обновить кастомное поле
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Account.Controllers.UserProfileController.DeleteCustomField(System.Guid)">
+            <summary>
+                Удалить кастомное поле
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Account.Controllers.UserProfileController.SpendMoney(System.Guid,System.Int32)">
+            <summary>
+            Уменьшить количество валюты у пользователя
+            </summary>
+            <param name="id">Id пользователя</param>
+            <param name="moneyChange">Количественное изменение валюты</param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Account.Controllers.UserProfileController.ReplenishMoney(System.Guid,System.Int32)">
+            <summary>
+            Увеличить количество валюты у пользователя
+            </summary>
+            <param name="id">Id пользователя</param>
+            <param name="moneyChange">Количественное изменение валюты</param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Account.Backoffice.Controllers.MiniAppController.GetAll">
+            <summary>
+                Получить все мини-приложения
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Account.Backoffice.Controllers.MiniAppController.GetMiniApp(System.Guid)">
+            <summary>
+                Получить мини-приложение по Id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Astrum.Account.Features.AchievementUpdateRequestBody.IconUrl">
+            <summary>
+                Url to icon image
+            </summary>
+        </member>
+        <member name="P:Astrum.Account.Features.AchievementUpdateRequestBody.Name">
+            <summary>
+                Achievement name
+            </summary>
+        </member>
+        <member name="P:Astrum.Account.Features.AchievementUpdateRequestBody.Description">
+            <summary>
+                Description of an achievement
+            </summary>
+        </member>
+    </members>
+</doc>

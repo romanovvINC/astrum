@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Astrum.Appeal.Backoffice</name>
+    </assembly>
+    <members>
+        <member name="T:Astrum.Appeal.Controllers.AppealController">
+            <summary>
+                Appeal endpoints
+            </summary>
+        </member>
+        <member name="M:Astrum.Appeal.Controllers.AppealController.#ctor(Astrum.Appeal.Services.IAppealService,Astrum.Appeal.Application.Services.IAppealCategoryService,HotChocolate.Subscriptions.ITopicEventSender,Astrum.Account.Services.IUserProfileService,Astrum.Logging.Services.ILogHttpService)">
+            <summary>
+                AppealController initializer
+            </summary>
+            <param name="appealService"></param>
+            <param name="sender"></param>
+        </member>
+        <member name="M:Astrum.Appeal.Controllers.AppealController.Get(System.Int32,System.Int32)">
+            <summary>
+                Получение статей
+            </summary>
+        </member>
+        <member name="M:Astrum.Appeal.Controllers.AppealController.Create(Astrum.Appeal.ViewModels.AppealFormData)">
+            <summary>
+                Создаёт новую заявку
+            </summary>
+            <param name="appealForm">Новая заявка</param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Appeal.Controllers.AppealController.Update(Astrum.Appeal.ViewModels.AppealForm)">
+            <summary>
+                Обновляет заявку
+            </summary>
+            <param name="id">id заявки</param>
+            <param name="appealForm">Изменённые поля заявки</param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Appeal.Controllers.AppealController.Delete(System.Guid)">
+            <summary>
+                Удаляет заявку
+            </summary>
+            <param name="id">id удаляемой заявки</param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Appeal.Controllers.AppealController.CreateCategory(System.String)">
+            <summary>
+                Создаёт категорию заявок
+            </summary>
+            <param name="name">Название категории</param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Appeal.Controllers.AppealController.UpdateCategory(System.Guid,System.String)">
+            <summary>
+                Изменяет категорию
+            </summary>
+            <param name="id">id категории</param>
+            <param name="name">Новое название заявки</param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Appeal.Controllers.AppealController.DeleteCategory(System.Guid)">
+            <summary>
+                Удаляет заявку
+            </summary>
+            <param name="id">Id удаляемой заявки</param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Appeal.Controllers.AppealController.GetAppealCreatePage">
+            <summary>
+                Получает данные для страницы создания заявки
+            </summary>
+        </member>
+    </members>
+</doc>

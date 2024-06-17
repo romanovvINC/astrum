@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\TrackerProject\\Astrum.TrackerProject.Admin\\wwwroot\\background.png",
+      "PackagePath": "staticwebassets\\background.png"
+    },
+    {
+      "Id": "C:\\Projects\\66bit\\Astrum\\pushcore-backend\\pushcore-backend\\src\\Modules\\TrackerProject\\Astrum.TrackerProject.Admin\\wwwroot\\exampleJsInterop.js",
+      "PackagePath": "staticwebassets\\exampleJsInterop.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Astrum.TrackerProject.Admin.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Astrum.TrackerProject.Admin.props",
+      "PackagePath": "build\\Astrum.TrackerProject.Admin.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Astrum.TrackerProject.Admin.props",
+      "PackagePath": "buildMultiTargeting\\Astrum.TrackerProject.Admin.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Astrum.TrackerProject.Admin.props",
+      "PackagePath": "buildTransitive\\Astrum.TrackerProject.Admin.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

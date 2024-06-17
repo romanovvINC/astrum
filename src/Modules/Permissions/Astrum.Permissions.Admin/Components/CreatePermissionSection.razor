@@ -1,0 +1,59 @@
+﻿@inject IPermissionSectionService _permissionSectionService;
+@inject ILogAdminService _logger;
+
+<Button Style="margin-bottom: 20px;" Type="Primary" OnClick="ShowModal">Добавить доступ раздела</Button>
+
+<Modal Visible="_visible" OnCancel="@HandleCancel" Footer="null">
+    <h3 class="text-center">Добавление доступа раздела</h3>
+    <Form Model="PermissionSection" OnFinish="OnFinish">
+        <FormItem Style="margin-top: 30px;">
+            <Input OnInput="@((ChangeEventArgs name) => OnChange(name))" Placeholder="Название раздела" @bind-Value="@PermissionSection.TitleSection"></Input>
+        </FormItem>
+        <FormItem Label="Доступ" Style="margin-top: 30px;">
+            <Checkbox @bind-Value="@PermissionSection.Permission"></Checkbox>
+        </FormItem>
+        <FormItem>
+            <Button Type="@ButtonType.Primary" HtmlType="submit" Disabled="@_createButtonDisabled">
+                Создать
+            </Button>
+        </FormItem>
+    </Form>
+</Modal>
+
+@code {
+    [Parameter] public EventCallback OnPermissionCreated { get; set; }
+    public bool PermissionAlreadyExists;
+    public bool _visible;
+    public bool _createButtonDisabled;
+    public PermissionSectionCreateRequest PermissionSection = new PermissionSectionCreateRequest();
+
+    private void ShowModal()
+    {
+        _visible = true;
+        _createButtonDisabled = true;
+        PermissionAlreadyExists = false;
+        PermissionSection = new PermissionSectionCreateRequest();
+    }
+
+    private void HandleCancel()
+    {
+        _visible = false;
+    }
+
+    private async Task OnFinish(EditContext context)
+    {
+        var model = context.Model as PermissionSectionCreateRequest;
+        if (!String.IsNullOrWhiteSpace(model?.TitleSection))
+        {
+            var result = await _permissionSectionService.CreatePermissionSection(model);
+            _logger.Log(model, result, "Создан доступ раздела.", Logging.Entities.ModuleAstrum.Permissions);
+            await OnPermissionCreated.InvokeAsync();
+            _visible = false;
+        }
+    }
+
+    private void OnChange(ChangeEventArgs name)
+    {
+        _createButtonDisabled = String.IsNullOrWhiteSpace(name.Value.ToString());
+    }
+}

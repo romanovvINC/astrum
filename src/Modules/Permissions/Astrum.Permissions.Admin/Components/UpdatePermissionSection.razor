@@ -1,0 +1,67 @@
+﻿@using AutoMapper;
+@inject IPermissionSectionService _permissionSectionService;
+@inject ILogAdminService _logger;
+@inject IMapper _mapper
+
+<Button Type="Primary" OnClick="ShowModal">Редактировать</Button>
+
+<Modal AfterClose="async () => { if (OnPermissionSectionEdited.HasDelegate)
+    {
+        await OnPermissionSectionEdited.InvokeAsync();
+    }}"
+       Visible="_visible"
+       OnCancel="@HandleCancel"
+       Footer="null">
+    <h3 class="text-center">Редактирование заказчика</h3>
+    <Form Model="MappedPermissionSection" OnFinish="OnFinish">
+        <FormItem Style="margin-top: 30px;">
+            <Input OnInput="@((ChangeEventArgs name) => OnChange(name))" Placeholder="Название раздела" @bind-Value="@MappedPermissionSection.TitleSection"></Input>
+        </FormItem>
+        <FormItem Label="Доступ" Style="margin-top: 30px;">
+            <Checkbox @bind-Value="@MappedPermissionSection.Permission"></Checkbox>
+        </FormItem>
+        <FormItem>
+            <Button Type="@ButtonType.Primary" HtmlType="submit" Disabled="_updateButtonDisabled">
+                Редактировать
+            </Button>
+        </FormItem>
+    </Form>
+</Modal>
+
+@code {
+    [Parameter] public PermissionSectionView PermissionSection { get; set; }
+    [Parameter] public EventCallback OnPermissionSectionEdited { get; set; }
+    public PermissionSectionUpdateRequest MappedPermissionSection = new();
+    private bool _visible;
+    public bool _updateButtonDisabled = false;
+    private string _formerName; // прежнее название
+
+    public void ShowModal()
+    {
+        _formerName = PermissionSection.TitleSection;
+        _visible = true;
+        MappedPermissionSection = _mapper.Map<PermissionSectionUpdateRequest>(PermissionSection);
+    }
+
+    public void HandleCancel()
+    {
+        PermissionSection.TitleSection = _formerName;
+        _visible = false;
+    }
+
+    public async Task OnFinish(EditContext context)
+    {
+        var request = context.Model as PermissionSectionUpdateRequest;
+        if (!String.IsNullOrWhiteSpace(request?.TitleSection))
+        {
+            var result = await _permissionSectionService.UpdatePermissionSection(PermissionSection.Id, request);
+            _logger.Log(request, result, "Обновлен доступ раздела.", Logging.Entities.ModuleAstrum.Permissions);
+            _visible = false;
+        }
+    }
+
+    private void OnChange(ChangeEventArgs name)
+    {
+        _updateButtonDisabled = String.IsNullOrWhiteSpace(name.Value.ToString());
+    }
+}

@@ -1,0 +1,14 @@
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Example\Backoffice\bin\Debug\net7.0\Astrum.Example.Backoffice.deps.json
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Example\Backoffice\bin\Debug\net7.0\Astrum.Example.Backoffice.dll
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Example\Backoffice\bin\Debug\net7.0\Astrum.Example.Backoffice.pdb
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Example\Backoffice\bin\Debug\net7.0\Astrum.Example.Backoffice.xml
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Example\Backoffice\obj\Debug\net7.0\Astrum.Example.Backoffice.csproj.AssemblyReference.cache
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Example\Backoffice\obj\Debug\net7.0\Astrum.Example.Backoffice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Example\Backoffice\obj\Debug\net7.0\Astrum.Example.Backoffice.AssemblyInfoInputs.cache
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Example\Backoffice\obj\Debug\net7.0\Astrum.Example.Backoffice.AssemblyInfo.cs
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Example\Backoffice\obj\Debug\net7.0\Astrum.Example.Backoffice.csproj.CoreCompileInputs.cache
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Example\Backoffice\obj\Debug\net7.0\Astrum.Example.Backoffice.dll
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Example\Backoffice\obj\Debug\net7.0\refint\Astrum.Example.Backoffice.dll
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Example\Backoffice\obj\Debug\net7.0\Astrum.Example.Backoffice.xml
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Example\Backoffice\obj\Debug\net7.0\Astrum.Example.Backoffice.pdb
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Example\Backoffice\obj\Debug\net7.0\ref\Astrum.Example.Backoffice.dll

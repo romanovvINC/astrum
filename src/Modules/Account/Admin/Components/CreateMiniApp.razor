@@ -1,0 +1,80 @@
+﻿@using Astrum.Account.Application.Services;
+@using Astrum.Account.Application.ViewModels;
+@using Astrum.Storage.ViewModels
+@inject IMiniAppService _miniAppService
+
+<Button Style="margin-bottom: 20px;" Type="Primary" OnClick="ShowModal">Добавить мини-приложение</Button>
+
+<Modal Visible="_visible" OnCancel="@HandleCancel" Footer="null">
+    <Spin Spinning=@_imageUploading>
+        <h3 class="text-center">Добавление мини-приложения</h3>
+        <Form Model="MiniApp" OnFinish="OnFinish" Layout="@FormLayout.Vertical">
+            <FormItem Label="Название мини-приложения">
+                <Input @bind-Value="@MiniApp.Name"></Input>
+            </FormItem>
+            <FormItem Label="Ссылка на мини-приложение">
+                <Input @bind-Value="@MiniApp.Link"></Input>
+            </FormItem>
+            <FormItem Label="Изображение">
+                <InputFile id="fileInput" OnChange="UploadFile" hidden />
+                <Upload>
+                    <label class="ant-btn" for="fileInput">
+                        <Icon Type="upload" />
+                        Прикрепить файл
+                    </label>
+                </Upload>
+            </FormItem>
+            <FormItem>
+                <Button Type="@ButtonType.Primary" HtmlType="submit">
+                    Создать
+                </Button>
+            </FormItem>
+        </Form>
+    </Spin>
+</Modal>
+
+    
+@code {
+    [Parameter] public EventCallback OnMiniAppCreated { get; set; }
+    public MiniAppRequest MiniApp = new MiniAppRequest();
+    public bool _visible;
+    private bool _imageUploading;
+
+    private void ShowModal()
+    {
+        _visible = true;
+        MiniApp = new MiniAppRequest();
+    }
+
+    private void HandleCancel()
+    {
+        _visible = false;
+    }
+
+    private async Task UploadFile(InputFileChangeEventArgs e)
+    {
+        _imageUploading = true;
+        StateHasChanged();
+
+        var file = e.File;
+        using var memoryStream = new MemoryStream();
+        await file.OpenReadStream(e.File.Size).CopyToAsync(memoryStream);
+        MiniApp.Image = new FileForm()
+        {
+            ContentType = file.ContentType,
+            FileName = file.Name,
+            FileBytes = memoryStream.ToArray(),
+        };
+
+        _imageUploading = false;
+        StateHasChanged();
+    }
+
+    private async Task OnFinish(EditContext context)
+    {
+        var model = context.Model as MiniAppRequest;
+        var result = await _miniAppService.CreateAsync(model);
+        await OnMiniAppCreated.InvokeAsync();
+        _visible = false;
+    }
+}

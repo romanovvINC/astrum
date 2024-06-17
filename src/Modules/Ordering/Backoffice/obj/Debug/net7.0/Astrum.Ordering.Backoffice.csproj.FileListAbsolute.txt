@@ -1,0 +1,14 @@
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Ordering\Backoffice\bin\Debug\net7.0\Astrum.Ordering.Backoffice.deps.json
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Ordering\Backoffice\bin\Debug\net7.0\Astrum.Ordering.Backoffice.dll
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Ordering\Backoffice\bin\Debug\net7.0\Astrum.Ordering.Backoffice.pdb
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Ordering\Backoffice\bin\Debug\net7.0\Astrum.Ordering.Backoffice.xml
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Ordering\Backoffice\obj\Debug\net7.0\Astrum.Ordering.Backoffice.csproj.AssemblyReference.cache
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Ordering\Backoffice\obj\Debug\net7.0\Astrum.Ordering.Backoffice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Ordering\Backoffice\obj\Debug\net7.0\Astrum.Ordering.Backoffice.AssemblyInfoInputs.cache
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Ordering\Backoffice\obj\Debug\net7.0\Astrum.Ordering.Backoffice.AssemblyInfo.cs
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Ordering\Backoffice\obj\Debug\net7.0\Astrum.Ordering.Backoffice.csproj.CoreCompileInputs.cache
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Ordering\Backoffice\obj\Debug\net7.0\Astrum.Ordering.Backoffice.dll
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Ordering\Backoffice\obj\Debug\net7.0\refint\Astrum.Ordering.Backoffice.dll
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Ordering\Backoffice\obj\Debug\net7.0\Astrum.Ordering.Backoffice.xml
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Ordering\Backoffice\obj\Debug\net7.0\Astrum.Ordering.Backoffice.pdb
+C:\Projects\66bit\Astrum\pushcore-backend\pushcore-backend\src\Modules\Ordering\Backoffice\obj\Debug\net7.0\ref\Astrum.Ordering.Backoffice.dll

@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Astrum.Market.Backoffice</name>
+    </assembly>
+    <members>
+        <member name="T:Astrum.Market.Controllers.BasketController">
+            <summary>
+                Basket endpoints
+            </summary>
+        </member>
+        <member name="M:Astrum.Market.Controllers.BasketController.GetBasket(System.Guid)">
+            <summary>
+                Получение корзины
+            </summary>
+            <param name="userId">Id нового пользователя</param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Market.Controllers.BasketController.Create(System.Guid)">
+            <summary>
+                Создание пустой корзины для нового пользователя
+                TODO ну если создается при создании пользователя, логично же что это на бэке и не нужен для этого эндпоинт новый, не?
+                Создаётся при создании нового пользователя
+            </summary>
+            <param name="userId">Id нового пользователя</param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Market.Controllers.BasketController.AddProduct(System.Guid,System.Guid,System.Int32)">
+            <summary>
+                Добавляет в корзину продукт из списка продуктов
+            </summary>
+            <param name="basketId">Id корзины</param>
+            <param name="productId">Id продукта</param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Market.Controllers.BasketController.Delete(System.Guid,System.Guid,System.Int32)">
+            <summary>
+                Удаляет из корзины продукт
+            </summary>
+            <param name="basketId">Id корзины</param>
+            <param name="productId">Id продукта</param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Market.Controllers.OrdersController.Create(Astrum.Market.ViewModels.MarketOrderFormRequest)">
+            <summary>
+                Создание нового заказа
+            </summary>
+            <param name="order">Новый заказ</param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Market.Controllers.OrdersController.Update(System.Guid,Astrum.Market.ViewModels.MarketOrderFormRequest)">
+            <summary>
+                Изменение заказа
+            </summary>
+            <param name="id">Id заказа</param>
+            <param name="order">Изменённый заказ</param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Market.Controllers.OrdersController.Delete(System.Guid)">
+            <summary>
+                Удаляет заказ
+            </summary>
+            <param name="id">Id удаляемого заказа</param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Market.Controllers.ProductsController.Create(Astrum.Market.ViewModels.MarketProductFormRequest)">
+            <summary>
+                Создаёт новый продукт
+            </summary>
+            <param name="product">Новый продукт</param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Market.Controllers.ProductsController.Update(System.Guid,Astrum.Market.ViewModels.MarketProductFormRequest)">
+            <summary>
+                Изменяет продукт
+            </summary>
+            <param name="id">Id продукта</param>
+            <param name="product">Изменённый продукт</param>
+            <returns></returns>
+        </member>
+        <member name="M:Astrum.Market.Controllers.ProductsController.Delete(System.Guid)">
+            <summary>
+                Удаляет товар
+            </summary>
+            <param name="id">Id товара</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
